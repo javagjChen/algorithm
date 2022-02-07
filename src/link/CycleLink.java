@@ -7,7 +7,7 @@ package link;
  */
 public class CycleLink {
 
-    public static class ListNode {
+    public class ListNode {
         int val;
         ListNode next;
         ListNode() {}

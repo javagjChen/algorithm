@@ -76,6 +76,7 @@ public class reverseKGroup {
             for (int i =0 ;i < k && end != null;i++){
                 end = end.next;
             }
+            // 省下的长度不够K则不需要再翻转了
             if (end == null){
                 break;
             }

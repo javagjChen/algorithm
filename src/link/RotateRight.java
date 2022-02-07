@@ -64,7 +64,7 @@ public class RotateRight {
         return newHead;
     }
 
-    public static class ListNode {
+    public class ListNode {
         int val;
         ListNode next;
         ListNode() {}
