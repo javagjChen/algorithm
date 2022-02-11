@@ -3,7 +3,7 @@ package math;
 import java.util.Arrays;
 
 /**
- * @Description 最接近的三数之和
+ * @Description 最接近的三数之和 中等
  * @Author chengj
  * @Date 2022/1/14
  */

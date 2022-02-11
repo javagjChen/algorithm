@@ -1,7 +1,7 @@
 package stringandarr;
 
 /**
- * @Description 最长回文子串
+ * @Description 最长回文子串 中等
  * @Author chengj
  * @Date 2022/1/12
  */

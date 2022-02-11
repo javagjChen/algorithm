@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description 排序序列
+ * @Description 排序序列 困难
  * @Author chengj
  * @Date 2022/1/26
  */
