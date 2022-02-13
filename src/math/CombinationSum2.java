@@ -61,9 +61,7 @@ public class CombinationSum2 {
     }
 
     private void dfp(List<List<Integer>> ans, int[] candidates, int target, List<Integer> combine, int begin) {
-        if (begin == candidates.length){
-            return;
-        }
+
         if (target == 0){
             ans.add(new ArrayList<>(combine));
             return;

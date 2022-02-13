@@ -1,7 +1,7 @@
 package link;
 
 /**
- * @Description 排序链表
+ * @Description 排序链表 中等
  * @Author chengj
  * @Date 2022/1/24
  */
