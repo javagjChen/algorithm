@@ -78,11 +78,8 @@ public class DetectCycle {
         ListNode slow = head;
         ListNode fast = head;
         while (fast != null){
-            if (slow != null){
-                slow = slow.next;
-            }else {
-                return null;
-            }
+            //慢指针肯定不为空
+            slow = slow.next;
             if (fast.next != null){
                 fast = fast.next.next;
             }else {

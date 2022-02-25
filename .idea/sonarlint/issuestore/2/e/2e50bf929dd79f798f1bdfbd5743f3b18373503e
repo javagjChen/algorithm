@@ -1,7 +1,0 @@
-
-h
-java:S37764"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(ÅÆúœ
-N
-java:S1128"3Remove this unused import 'java.util.AbstractList'.(ËÃ€ÿÿÿÿÿ
-m	java:S135J"YReduce the total number of break and continue statements in this loop to use at most one.(µ¹(
-s	java:S135="YReduce the total number of break and continue statements in this loop to use at most one.(Û“®æşÿÿÿÿ
