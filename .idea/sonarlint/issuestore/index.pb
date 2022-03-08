@@ -184,3 +184,15 @@ J
 src/tree/ConnectRight.java,1\0\10662d8ae0c93683d60293464ede868af1ef3da7
 I
 src/tree/NLevelOrder.java,5\9\59a56c142ad0d446e2d3c4c8ed54dbc69df90aec
+K
+src/tree/ConnectRight2.java,8\b\8b8da0a4458b0e1fb8375ba8bef93490b4dfffb7
+N
+src/tree/InorderTraversal.java,9\c\9ccb6b9d091e83656d13774f651ab44ae8ee31d4
+P
+ src/tree/PostorderTraversal.java,3\f\3f3be154d46bedd471098741b25ca98167b272ef
+K
+src/tree/RightSideView.java,f\6\f66132878211e644b11d120bff1a777b85c56ed3
+N
+src/tree/LevelOrderBottom.java,d\5\d5e93880749d919e0fabcc35930931818ba9bd12
+F
+src/tree/MaxDepth.java,7\4\74277e3f3ad4f4b25c7810fc5ca6670c3410500c
