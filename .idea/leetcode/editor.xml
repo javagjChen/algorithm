@@ -795,6 +795,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[501]二叉搜索树中的众数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[501]二叉搜索树中的众数.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com501" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[501]二叉搜索树中的众数.java" />
+              <option name="titleSlug" value="find-mode-in-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[513]找树左下角的值.java">
           <value>
             <LeetcodeEditor>
@@ -814,6 +825,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[515]在每个树行中找最大值.java" />
               <option name="titleSlug" value="find-largest-value-in-each-tree-row" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[530]二叉搜索树的最小绝对差.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[530]二叉搜索树的最小绝对差.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com530" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[530]二叉搜索树的最小绝对差.java" />
+              <option name="titleSlug" value="minimum-absolute-difference-in-bst" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -883,6 +905,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[617]合并二叉树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[617]合并二叉树.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com617" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[617]合并二叉树.java" />
+              <option name="titleSlug" value="merge-two-binary-trees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[61]旋转链表.java">
           <value>
             <LeetcodeEditor>
@@ -924,6 +957,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[665]非递减数列.java" />
               <option name="titleSlug" value="non-decreasing-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[700]二叉搜索树中的搜索.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[700]二叉搜索树中的搜索.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com700" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[700]二叉搜索树中的搜索.java" />
+              <option name="titleSlug" value="search-in-a-binary-search-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1001,6 +1045,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[977]有序数组的平方.java" />
               <option name="titleSlug" value="squares-of-a-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[98]验证二叉搜索树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[98]验证二叉搜索树.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com98" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[98]验证二叉搜索树.java" />
+              <option name="titleSlug" value="validate-binary-search-tree" />
             </LeetcodeEditor>
           </value>
         </entry>

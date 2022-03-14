@@ -61,7 +61,7 @@ public class LowestCommonAncestor2 {
      * 开启递归左子节点，返回值记为 left ；
      * 开启递归右子节点，返回值记为 right ；
      * 返回值： 根据 left 和 right ，可展开为四种情况；
-     * 当 left 和 right 同时为空 ：说明 root 的左 / 右子树中都不包含 p,qp,q ，返回 null ；
+     * 当 left 和 right 同时为空 ：说明 root 的左 / 右子树中都不包含 p,q ，返回 null ；
      * 当 left 和 right 同时不为空 ：说明 p, q 分列在 root 的 异侧 （分别在 左 / 右子树），因此 root 为最近公共祖先，返回 root ；
      * 当 left 为空 ，right 不为空 ：p,,q 都不在 root 的左子树中，直接返回 right 。具体可分为两种情况：
      * p,q 其中一个在 root 的 右子树 中，此时 right 指向 p（假设为 p ）；
