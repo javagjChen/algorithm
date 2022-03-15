@@ -1,9 +1,5 @@
 package tree;
 
-import javax.swing.tree.TreeNode;
-import javax.swing.tree.TreePath;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author chengj
