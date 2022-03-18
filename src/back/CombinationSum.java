@@ -1,11 +1,12 @@
 package back;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * @author chengj
- * @Description 组合总和
+ * @Description 39.组合总和 中等
  * @Date 2022/2/10
  */
 //给你一个 无重复元素 的整数数组 candidates 和一个目标整数 target ，找出 candidates 中可以使数字和为目标数 target 的
@@ -66,20 +67,44 @@ public class CombinationSum {
         return ans;
     }
 
-    private void dfp(List<List<Integer>> ans, int[] candidates, List<Integer> combine, int target, int i) {
-        if (i == candidates.length){
+    private void dfp(List<List<Integer>> ans, int[] candidates, List<Integer> combine, int target, int index) {
+        if (index == candidates.length){
             return;
         }
         if (target == 0){
             ans.add(new ArrayList<>(combine));
-
             return;
         }
-        dfp(ans,candidates,combine,target,i +1);
-        if (target - candidates[i] >= 0){
-            combine.add(candidates[i]);
-            dfp(ans,candidates,combine,target - candidates[i],i);
-            combine.remove(candidates[i]);
+        dfp(ans,candidates,combine,target,index +1);
+        if (target - candidates[index] >= 0){
+            combine.add(candidates[index]);
+            dfp(ans,candidates,combine,target - candidates[index],index);
+            combine.remove(candidates[index]);
+        }
+    }
+
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<List<Integer>> res = new ArrayList<>();
+        Arrays.sort(candidates); // 先进行排序
+        backtracking(res, new ArrayList<>(), candidates, target, 0, 0);
+        return res;
+    }
+
+    public void backtracking(List<List<Integer>> res, List<Integer> path, int[] candidates, int target, int sum, int index) {
+        // 找到了数字和为 target 的组合
+        if (sum == target) {
+            res.add(new ArrayList<>(path));
+            return;
+        }
+
+        for (int i = index; i < candidates.length; i++) {
+            // 如果 sum + candidates[i] > target 就终止遍历
+            if (sum + candidates[i] > target) break;
+            path.add(candidates[i]);
+            sum += candidates[i];
+            backtracking(res, path, candidates, target, sum, i);
+            sum -= candidates[i];
+            path.remove(path.size() - 1); // 回溯，移除路径 path 最后一个元素
         }
     }
 }

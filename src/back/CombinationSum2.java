@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author chengj
- * @Description 组合总和2 中等
+ * @Description 40.组合总和2 中等
  * @Date 2022/2/10
  */
 //给定一个候选人编号的集合 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
@@ -56,30 +56,31 @@ public class CombinationSum2 {
         List<Integer> combine = new ArrayList<>();
         // 先排序
         Arrays.sort(candidates);
-        dfp(ans,candidates,target,combine,0);
+        dfp(ans,candidates,target,combine,0,0);
         return ans;
     }
 
-    private void dfp(List<List<Integer>> ans, int[] candidates, int target, List<Integer> combine, int begin) {
+    private void dfp(List<List<Integer>> ans, int[] candidates, int target,
+                     List<Integer> combine, int index,int sum) {
 
-        if (target == 0){
+        if (target == sum){
             ans.add(new ArrayList<>(combine));
             return;
         }
-        for (int i  = begin; i < candidates.length; i++) {
+        for (int i  = index; i < candidates.length; i++) {
             //
-            if (candidates[i] > target) {
+            if (sum + candidates[i] > target) {
                 break;
             }
             // 相同的
-            if (i > begin && candidates[i] == candidates[i - 1]) {
+            if (i > index && candidates[i] == candidates[i - 1]) {
                 continue;
             }
-
             combine.add(candidates[i]);
-            dfp(ans, candidates, target - candidates[i],combine,i +1);
+            sum += candidates[i];
+            dfp(ans, candidates, target,combine,i +1,sum);
+            sum -= candidates[i];
             combine.remove(combine.size() -1);
         }
-
     }
 }

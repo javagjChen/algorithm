@@ -1,14 +1,11 @@
 package back;
 
-import com.sun.xml.internal.ws.api.server.LazyMOMProvider;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
  * @author chengj
- * @Description 组合总和3 中等
+ * @Description 216.组合总和3 中等
  * @Date 2022/3/15
  */
 //找出所有相加之和为 n 的 k 个数的组合，且满足下列条件：
@@ -68,25 +65,23 @@ public class CombinationSum3 {
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
-        doCombinationSum(ans,list,k,n,1,0);
+        doCombinationSum(ans,list,k,n,1);
         return ans;
     }
 
     private void doCombinationSum(List<List<Integer>> ans, List<Integer> list,
-                                  int k, int target, int index,int sum) {
-        if (list.size() == k && target == sum){
+                                  int k, int target, int index) {
+        if (list.size() == k && target == 0){
             List<Integer> tmp = new ArrayList<>(list);
             ans.add(tmp);
             return;
         }
-        if (list.size() > k || sum > target){
+        if (list.size() > k || 0 > target){
             return;
         }
         for (int i = index;i <= 9;i++){
             list.add(i);
-            sum += i;
-            doCombinationSum(ans,list,k,target,i + 1,sum);
-            sum -= i;
+            doCombinationSum(ans,list,k,target-i,i + 1);
             list.remove(list.size() - 1);
         }
     }

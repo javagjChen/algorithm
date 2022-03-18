@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author chengj
- * @Description 组合 中等
+ * @Description 77.组合 中等
  * @Date 2022/3/15
  */
 //给定两个整数 n 和 k，返回范围 [1, n] 中所有可能的 k 个数的组合。
