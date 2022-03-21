@@ -46,7 +46,6 @@ public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
-        int len = nums.length;
         doSubSets(ans,list,0,nums);
         return ans;
     }

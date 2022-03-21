@@ -25,8 +25,6 @@ H
 src/sort/SelectSort.java,c\f\cf3874519b22b0c728bc6850854caa609ce71a1f
 G
 src/sort/RadixSort.java,a\c\ac3ab3aadc1d4cc2fdd21f18ca17910e855f0aa8
-G
-src/sort/QuickSort.java,6\d\6d836c36a90b7f1e300f7fd3133237ef13c5bb33
 N
 src/math/CountKDifference.java,3\2\32d8cc5ae58148eaaa47bc8dbad74b58d649f962
 ]
@@ -49,8 +47,6 @@ K
 src/link/reverseKGroup.java,2\a\2a20c97ffb3f07c5223509eeef01114114ce2224
 F
 src/link/SortList.java,3\b\3ba56342aede47a959ed158fd109269f2a65dff8
-G
-src/sort/MergeSort.java,3\3\33b07c48b6ec4fec2a5471dca3d85d14a23f87a4
 H
 src/sort/InsertSort.java,8\1\815c27d30f61315c00ffa86a9bcece3916dd149c
 J
@@ -246,3 +242,5 @@ H
 src/tree/ConvertBST.java,9\5\955504de4810a758f82f8fbd92927313536eea6c
 M
 src/tree/BinaryTreePaths.java,e\b\eb786a5905fa259009a66ef15f69cfcdc5d278da
+L
+src/back/CombinationSum.java,2\6\2697e0c8db2fdd1e0af8cb93ba2fb556d5977ef6
