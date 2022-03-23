@@ -1,10 +1,10 @@
-package stringandarr;
+package back;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description 全排列 中等
+ * @Description 46.全排列 中等
  * @Author chengj
  * @Date 2022/1/19
  */
@@ -61,7 +61,6 @@ public class Permute {
         }
         int len = nums.length;
         boolean [] used = new boolean[len];
-        int deep = 0;
         List<Integer> subList = new ArrayList<>();
         dpf(nums,len,0,subList,used,result);
         return result;

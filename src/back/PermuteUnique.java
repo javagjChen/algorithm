@@ -1,11 +1,11 @@
-package stringandarr;
+package back;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * @Description 全排列2 中等
+ * @Description 47.全排列2 中等
  * @Author chengj
  * @Date 2022/1/20
  */
@@ -65,7 +65,7 @@ public class PermuteUnique {
             if (used[i]){
                 continue;
             }
-            if (i > 0 && nums[i] == nums[i-1] && used[i -1]){
+            if (i > 0 && nums[i] == nums[i-1] && !used[i -1]){
                 continue;
             }
             subList.add(nums[i]);

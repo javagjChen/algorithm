@@ -33,8 +33,6 @@ W
 'src/stringandarr/LongestPalindrome.java,a\6\a6fc575d24c416e1fb385ba7aff97b2be826dd2a
 M
 src/math/ThreeSumClosest.java,5\9\59c2415efbb1f5535f1d1cf288a210896ed5cce4
-S
-#src/stringandarr/PermuteUnique.java,e\1\e158149e987a4c7af78cfbbf1a221636b270cb48
 T
 $src/stringandarr/GetPermutation.java,7\f\7fd429e9ff5b82a90057a8d947455ca9ce1bb803
 Q
@@ -63,8 +61,6 @@ C
 src/math/Candy.java,4\7\47d5cec25f088afde7a5f4f31e4fc47465f897ff
 L
 src/search/BinarySearch.java,6\9\698128b3cf27f5694bd0e740ae31de60b680f118
-M
-src/stringandarr/Permute.java,d\b\db77153f62ab13adc2663fd26e664f37f4d4d412
 O
 src/greedy/PartitionLabels.java,3\5\354b14599ea60f4076409245d3e0fb7822f961f6
 Q
@@ -242,5 +238,19 @@ H
 src/tree/ConvertBST.java,9\5\955504de4810a758f82f8fbd92927313536eea6c
 M
 src/tree/BinaryTreePaths.java,e\b\eb786a5905fa259009a66ef15f69cfcdc5d278da
+M
+src/back/CombinationSum3.java,0\d\0d68ff31f4afb1575ee8fbafe7ea610f2eef6ebb
+G
+src/sort/QuickSort.java,6\d\6d836c36a90b7f1e300f7fd3133237ef13c5bb33
+G
+src/sort/MergeSort.java,3\3\33b07c48b6ec4fec2a5471dca3d85d14a23f87a4
+P
+ src/arr/FindNumberIn2DArray.java,3\9\39abdeec0270d51725e1fb7fc493849380338f01
+P
+ src/back/LetterCombinations.java,8\f\8fbbb13a96e4b28c051c15dac93c32583585e02d
+M
+src/back/CombinationSum2.java,c\1\c15d87a84932f64bff8de57b99c878b541047adb
+P
+ src/back/RestoreIpAddresses.java,0\5\0552b881106fdbe6d35d73ae32b6b40ab38ed77a
 L
 src/back/CombinationSum.java,2\6\2697e0c8db2fdd1e0af8cb93ba2fb556d5977ef6
