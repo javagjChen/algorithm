@@ -41,7 +41,7 @@ package greedy;
 public class CanJump {
     public static void main(String[] args) {
         CanJump canJump = new CanJump();
-        System.out.println(canJump.canJump(new int[]{3,2,1,0,4}));
+        System.out.println(canJump.canJump2(new int[]{3,2,1,0,4}));
     }
 
     /**
@@ -62,6 +62,21 @@ public class CanJump {
             maxLength = Math.max(maxLength -1,nums[i]);
         }
         return maxLength >= 1;
+    }
+
+    public boolean canJump2(int[] nums) {
+        int len = nums.length;
+        if (len == 1){
+            return true;
+        }
+        int  maxLength = 0;
+        for (int i =0;i < len-1;i++){
+            maxLength = Math.max(maxLength,i+nums[i]);
+            if (maxLength >= len-1){
+                return true;
+            }
+        }
+        return false;
     }
 
 }

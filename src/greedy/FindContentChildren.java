@@ -1,4 +1,4 @@
-package math;
+package greedy;
 
 import java.util.Arrays;
 
@@ -48,8 +48,8 @@ import java.util.Arrays;
 public class FindContentChildren {
     public static void main(String[] args) {
         FindContentChildren findContentChildren = new FindContentChildren();
-        int [] g = new int[]{1,2};
-        int [] s = new int[]{1,2,3};
+        int [] g = new int[]{1,2,3};
+        int [] s = new int[]{3};
         System.out.println(findContentChildren.findContentChildren(g,s));
     }
     public int findContentChildren(int[] g, int[] s) {
@@ -58,11 +58,11 @@ public class FindContentChildren {
         }
         Arrays.sort(g);
         Arrays.sort(s);
-
+        int index = s.length - 1;
         int ans =0;
-        for (int i =0,j = 0;i< g.length&& j < s.length;j++){
-            if (s[j] >= g[i]){
-                i++;
+        for (int i = g.length -1;i >=0;i--){
+            if (index >= 0 && g[i] <= s[index]){
+                index--;
                 ans++;
             }
 

@@ -53,8 +53,6 @@ M
 src/stringandarr/MaxArea.java,6\2\6284926d438330c935bc42848cd47356927c3bfc
 J
 src/stringandarr/Trap.java,0\7\076a1a2ee955bc96e2305f33b3ba8fb9d56d57b7
-Q
-!src/math/FindContentChildren.java,7\5\7591e0b94d159124a80e5f3d348368d11fd0911e
 L
 src/stringandarr/Rotate.java,3\6\364b58d5fdd3c7a9b4db4e844410f0ba34e5196a
 C
@@ -80,10 +78,6 @@ I
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-G
-src/greedy/CanJump.java,c\8\c87a7071c90806b50d041e5399f8e712bb5e0462
-C
-src/dp/CanJump.java,5\c\5c5a83f0a4b48e7a7b064f980745b53fd4b017c8
 M
 src/arr/CheckPossibility.java,2\7\27a453809d13da4bb0197425848c00a190111b31
 K
@@ -100,8 +94,6 @@ G
 src/link/SwapPairs.java,5\6\56342affe07d4615b338b9f1accefb7c7e9523d5
 J
 src/hash/Intersection.java,b\a\ba40f5b31465e9786459008f51376e17bcf3eeb0
-E
-src/hash/IsHappy.java,2\f\2f568a9be301e40fe7e89fd4669311d6c776dd98
 D
 src/hash/TwoSum.java,4\5\4517f34ab89068cf63c77eaa0474a10f95fb9656
 J
@@ -254,3 +246,21 @@ P
  src/back/RestoreIpAddresses.java,0\5\0552b881106fdbe6d35d73ae32b6b40ab38ed77a
 L
 src/back/CombinationSum.java,2\6\2697e0c8db2fdd1e0af8cb93ba2fb556d5977ef6
+N
+src/back/FindSubsequences.java,5\d\5dcf4d249c1806d67af541093c15b16bcbadb6ed
+E
+src/back/Permute.java,2\1\21d05a1a58e6990ce0f0b1205fd26d0a909ee745
+K
+src/back/PermuteUnique.java,c\1\c13879ea4be0bb6d6117f6337c03a136378e08a7
+E
+src/back/Combine.java,9\5\95233edf3e8326f2869a7037367bac240414ee30
+E
+src/back/Subsets.java,c\3\c36a231562eed4ff6dec9c099ee99a9311455292
+L
+src/back/SubsetsWithDup.java,9\d\9de5cc684604c9bb7012a55e36b8f4fe7130b5fa
+G
+src/back/Partition.java,e\3\e3fc55c9368b27706e6b679db0b09365d52a6419
+S
+#src/greedy/FindContentChildren.java,a\9\a9502ea956f288fcfc79f361953bb2fe4c7ce44e
+O
+src/greedy/WiggleMaxLength.java,3\2\320b3fc9ade2f8179ce98cdebeb9f892addf7cf5
