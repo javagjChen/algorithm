@@ -70,7 +70,7 @@ public class CanJump {
             return true;
         }
         int  maxLength = 0;
-        for (int i =0;i < len-1;i++){
+        for (int i =0;i <= maxLength;i++){
             maxLength = Math.max(maxLength,i+nums[i]);
             if (maxLength >= len-1){
                 return true;
