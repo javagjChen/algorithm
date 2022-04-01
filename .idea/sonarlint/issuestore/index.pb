@@ -55,14 +55,10 @@ J
 src/stringandarr/Trap.java,0\7\076a1a2ee955bc96e2305f33b3ba8fb9d56d57b7
 L
 src/stringandarr/Rotate.java,3\6\364b58d5fdd3c7a9b4db4e844410f0ba34e5196a
-C
-src/math/Candy.java,4\7\47d5cec25f088afde7a5f4f31e4fc47465f897ff
 L
 src/search/BinarySearch.java,6\9\698128b3cf27f5694bd0e740ae31de60b680f118
 U
 %src/stringandarr/CanPlaceFlowers.java,1\5\15af50ecb48a5291a588754f48b2e75388dbbbd3
-G
-src/dp/ClimbStairs.java,d\4\d48fcb4823216d4f9fc59f867ce3fa44733d9207
 ?
 src/dp/Rob.java,d\5\d59da1d5d466a57612c2d82db0adf2042fed4d04
 I
@@ -136,8 +132,6 @@ K
 src/queue/TopKFrequent.java,e\9\e9e9cf710a7fc3f8be23337ca7771a5950318814
 O
 src/queue/MaxSlidingWindow.java,5\5\55f7f7e1a60807c14399acf6d72eee24390e0f06
-O
-src/stack/RemoveDuplicates.java,6\3\6355f49a823dc307d813e5cb8bd37561c66592d0
 K
 src/tree/LargestValues.java,1\2\12c237c5f8e4869042d4a658024964edf183403c
 J
@@ -258,3 +252,35 @@ M
 src/arr/CheckPossibility.java,2\7\27a453809d13da4bb0197425848c00a190111b31
 K
 src/arr/MinSubArrayLen.java,c\2\c221667d33d633d9f35399a4032564e46c258651
+H
+src/arr/MinDeletion.java,6\4\64d3c33584afbe4ee1826a0c4208d2d98ccc137c
+K
+src/arr/FindDifference.java,d\d\dd5b9363297f994b5c87235037e2e63bc3be2531
+G
+src/back/Partition.java,e\3\e3fc55c9368b27706e6b679db0b09365d52a6419
+O
+src/stack/RemoveDuplicates.java,6\3\6355f49a823dc307d813e5cb8bd37561c66592d0
+E
+src/greedy/Candy.java,3\4\3467952840016bc907bddce068c431ffbc10be0b
+R
+"src/greedy/CanCompleteCircuit.java,7\5\759ac31b333550e82162189c1eef38149e565c4b
+G
+src/greedy/CanJump.java,c\8\c87a7071c90806b50d041e5399f8e712bb5e0462
+S
+#src/greedy/FindContentChildren.java,a\9\a9502ea956f288fcfc79f361953bb2fe4c7ce44e
+U
+%src/greedy/EraseOverlapIntervals.java,4\b\4b5cb6bb1119f53885bf7083e0698be5a4831a82
+Q
+!src/greedy/FindMinArrowShots.java,3\2\32be0edc97c77cacc02800ff903773ddb460b1c8
+D
+src/greedy/Jump.java,6\7\679dcc15281abc219f835d5991783488a929001a
+Y
+)src/greedy/LargestSumAfterKNegations.java,b\8\b859ffb4111c5952b9a96cd06b0a4025d107c6a1
+N
+src/greedy/LemonadeChange.java,2\6\26d9241b18dd31b56976ea3a4a51bd9f687e1330
+I
+src/greedy/MaxProfit.java,a\9\a9761183fff06f5b84fd08418d03d0e2bbced948
+O
+src/greedy/PartitionLabels.java,3\5\354b14599ea60f4076409245d3e0fb7822f961f6
+P
+ src/greedy/ReconstructQueue.java,f\4\f4e93be40dd8ebeaaa53b07ca56fb58523d90771

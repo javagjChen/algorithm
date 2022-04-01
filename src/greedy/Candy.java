@@ -1,10 +1,10 @@
-package math;
+package greedy;
 
 import java.util.Arrays;
 
 /**
  * @author chengj
- * @Description 分发糖果 困难
+ * @Description 135.分发糖果 困难
  * @Date 2022/2/14
  */
 //n 个孩子站成一排。给你一个整数数组 ratings 表示每个孩子的评分。
@@ -72,4 +72,5 @@ public class Candy {
         }
         return ans;
     }
+
 }

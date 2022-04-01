@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author chengj
- * @Description 删除字符串中的所有相邻重复项 简单
+ * @Description 1047.删除字符串中的所有相邻重复项 简单
  * @Date 2022/3/1
  */
 //给出由小写字母组成的字符串 S，重复项删除操作会选择两个相邻且相同的字母，并删除它们。

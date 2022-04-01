@@ -3,7 +3,7 @@ package greedy;
 import java.util.Arrays;
 
 /**
- * @author chengj 分发饼干 简单
+ * @author chengj 455.分发饼干 简单
  * @Description
  * @Date 2022/2/13
  */

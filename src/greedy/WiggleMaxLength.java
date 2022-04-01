@@ -72,7 +72,7 @@ public class WiggleMaxLength {
         int ans = 1;
         for (int i = 0;i < nums.length - 1;i++){
             currDiff = nums[i+1] - nums[i];
-            if ((currDiff >0 && preDiff <= 0) || (currDiff < 0 && preDiff >= 0)){
+            if ((currDiff > 0 && preDiff <= 0) || (currDiff < 0 && preDiff >= 0)){
                 ans++;
                 preDiff = currDiff;
             }
