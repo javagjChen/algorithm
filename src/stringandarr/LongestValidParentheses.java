@@ -2,7 +2,7 @@ package stringandarr;
 
 /**
  * @author chengj
- * @Description 最长有效括号
+ * @Description 32.最长有效括号 困难
  * @Date 2022/2/9
  */
 //给你一个只包含 '(' 和 ')' 的字符串，找出最长有效（格式正确且连续）括号子串的长度。
