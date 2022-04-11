@@ -47,7 +47,7 @@ package stringandarr;
 // Related Topics 栈 字符串 动态规划 👍 1640 👎 0
 public class LongestValidParentheses {
     public static void main(String[] args) {
-        System.out.println(longestValidParentheses(")()())"));
+        System.out.println(longestValidParentheses(")()("));
     }
     public static int longestValidParentheses(String s) {
         int ans = 0;
