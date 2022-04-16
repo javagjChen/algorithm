@@ -1,7 +1,5 @@
-package game;
+package weekgame;
 
-import java.math.BigInteger;
-import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
