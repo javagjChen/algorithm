@@ -1,7 +1,7 @@
 package arr;
 
 /**
- * @author chengj 有序数组的平方 简单
+ * @author chengj 977.有序数组的平方 简单
  * @Description
  * @Date 2022/2/16
  */

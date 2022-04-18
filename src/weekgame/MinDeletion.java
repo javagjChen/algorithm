@@ -1,4 +1,4 @@
-package arr;
+package weekgame;
 
 /**
  * @author chengj
