@@ -3,8 +3,6 @@ A
 src/LRUCache.java,6\8\68026b374d80a0cc8f618b655fd8c199c53fba4e
 K
 src/math/AddTwoNumbers.java,3\9\39711126ecd38ae0e51f285960a02b3542033bed
-G
-src/math/CanWinNim.java,0\3\03f502402a1bc2f82bf077024930aaff342df043
 J
 src/math/IsPowerOfTwo.java,8\a\8a313631577ea3b5bf417062b50df2ba3423ef14
 E
@@ -208,8 +206,6 @@ O
 src/stack/RemoveDuplicates.java,6\3\6355f49a823dc307d813e5cb8bd37561c66592d0
 E
 src/greedy/Candy.java,3\4\3467952840016bc907bddce068c431ffbc10be0b
-R
-"src/greedy/CanCompleteCircuit.java,7\5\759ac31b333550e82162189c1eef38149e565c4b
 G
 src/greedy/CanJump.java,c\8\c87a7071c90806b50d041e5399f8e712bb5e0462
 S
@@ -224,8 +220,6 @@ Y
 )src/greedy/LargestSumAfterKNegations.java,b\8\b859ffb4111c5952b9a96cd06b0a4025d107c6a1
 N
 src/greedy/LemonadeChange.java,2\6\26d9241b18dd31b56976ea3a4a51bd9f687e1330
-I
-src/greedy/MaxProfit.java,a\9\a9761183fff06f5b84fd08418d03d0e2bbced948
 O
 src/greedy/PartitionLabels.java,3\5\354b14599ea60f4076409245d3e0fb7822f961f6
 P
@@ -248,22 +242,10 @@ G
 src/dp/Fib.java,5\b\5b396cd30831c0a9592e3242bef9916cfc9fd92c
 T
 $src/dp/UniquePathsWithObstacles.java,7\7\77c5ee78f472a3db94193a88da08d41345b1c204
-N
-src/back/FindSubsequences.java,5\d\5dcf4d249c1806d67af541093c15b16bcbadb6ed
-P
- src/back/LetterCombinations.java,8\f\8fbbb13a96e4b28c051c15dac93c32583585e02d
-K
-src/back/PermuteUnique.java,c\1\c13879ea4be0bb6d6117f6337c03a136378e08a7
-E
-src/back/Subsets.java,c\3\c36a231562eed4ff6dec9c099ee99a9311455292
 L
 src/back/SubsetsWithDup.java,9\d\9de5cc684604c9bb7012a55e36b8f4fe7130b5fa
 H
 src/dp/CanPartition.java,c\9\c9756b6a88be3c8ff93485a7879ffc0a68d91fcf
-P
- src/back/RestoreIpAddresses.java,0\5\0552b881106fdbe6d35d73ae32b6b40ab38ed77a
-]
--src/stringandarr/LongestValidParentheses.java,c\a\cae928cbaf2d2462a0502e4042e811c658560fa5
 F
 src/stack/IsValid.java,0\8\0868eba69c053a638fc72fc60872d038eb46a74e
 P
@@ -276,10 +258,6 @@ M
 src/dp/LastStoneWeightII.java,c\5\c5a19943595667ef6551a90c6b4ab1b114b302d6
 Q
 !src/dp/MinCostClimbingStairs.java,0\4\04f639ad8deaf539562c13423c274b8169684149
-E
-src/back/Combine.java,9\5\95233edf3e8326f2869a7037367bac240414ee30
-M
-src/back/CombinationSum2.java,c\1\c15d87a84932f64bff8de57b99c878b541047adb
 G
 src/dp/FindMaxForm.java,0\1\0148cbe9697e33b7a1dba48d2622a6b335c502f7
 K
@@ -292,12 +270,6 @@ E
 src/dp/WordBreak.java,4\c\4c6c4beff92e865112435c25adfd1cf17262c5de
 ?
 src/dp/Rob.java,d\5\d59da1d5d466a57612c2d82db0adf2042fed4d04
-G
-src/back/Partition.java,e\3\e3fc55c9368b27706e6b679db0b09365d52a6419
-E
-src/back/Permute.java,2\1\21d05a1a58e6990ce0f0b1205fd26d0a909ee745
-M
-src/back/CombinationSum3.java,0\d\0d68ff31f4afb1575ee8fbafe7ea610f2eef6ebb
 D
 src/dp/NumTrees.java,2\b\2be336e09e4b05f76661cb0ec0fed49ba0b6dc15
 M
@@ -306,8 +278,6 @@ M
 src/tree/AverageOfLevels.java,9\0\9085a7e1e81c07500af84aa9a7a800e5ab10f57a
 M
 src/weekgame/MinDeletion.java,c\e\cec3c7115b0bc96b53380c2509e2c6679e0ac05b
-L
-src/back/CombinationSum.java,2\6\2697e0c8db2fdd1e0af8cb93ba2fb556d5977ef6
 J
 src/arr/SortedSquares.java,a\e\aec10c53411cf1a93bb8999f76398e2628db86ec
 K
@@ -317,4 +287,66 @@ P
 M
 src/arr/CheckPossibility.java,2\7\27a453809d13da4bb0197425848c00a190111b31
 @
+src/dp/Rob2.java,4\f\4f3ced42e96a7d70efbd08ae74b217f6c5ede144
+H
+src/dp/IntegerBreak.java,8\5\855ccbe76c3f519fc84d04412918474716e103c5
+S
+#src/weekgame/FindClosestNumber.java,b\7\b79f022b06d4971f17ab2151ab12f7a96aa3e2b1
+P
+ src/weekgame/FindDifference.java,8\0\80f2e483fc81234044c417dd550194fe5f239dc2
+V
+&src/weekgame/WaysToBuyPensPencils.java,0\f\0f6709a9cf467534935da743dd7b94c6a5713837
+O
+src/weekgame/MinimumRounds.java,3\b\3b176ae0b5dbc76dcee741b959b7b395ae269909
+J
+src/weekgame/DigitSum.java,5\8\582b0b39a658d0b905df74daa83e88e10bf2ac9a
+E
+src/weekgame/ATM.java,d\1\d19864f73a8380e4a0e04dc2d62f9b8382eb9588
+L
+src/back/CombinationSum.java,2\6\2697e0c8db2fdd1e0af8cb93ba2fb556d5977ef6
+M
+src/back/CombinationSum2.java,c\1\c15d87a84932f64bff8de57b99c878b541047adb
+M
+src/back/CombinationSum3.java,0\d\0d68ff31f4afb1575ee8fbafe7ea610f2eef6ebb
+E
+src/back/Combine.java,9\5\95233edf3e8326f2869a7037367bac240414ee30
+N
+src/back/FindSubsequences.java,5\d\5dcf4d249c1806d67af541093c15b16bcbadb6ed
+P
+ src/back/LetterCombinations.java,8\f\8fbbb13a96e4b28c051c15dac93c32583585e02d
+G
+src/back/Partition.java,e\3\e3fc55c9368b27706e6b679db0b09365d52a6419
+E
+src/back/Permute.java,2\1\21d05a1a58e6990ce0f0b1205fd26d0a909ee745
+K
+src/back/PermuteUnique.java,c\1\c13879ea4be0bb6d6117f6337c03a136378e08a7
+P
+ src/back/RestoreIpAddresses.java,0\5\0552b881106fdbe6d35d73ae32b6b40ab38ed77a
+E
+src/back/Subsets.java,c\3\c36a231562eed4ff6dec9c099ee99a9311455292
+R
+"src/greedy/CanCompleteCircuit.java,7\5\759ac31b333550e82162189c1eef38149e565c4b
+G
+src/math/CanWinNim.java,0\3\03f502402a1bc2f82bf077024930aaff342df043
+@
 src/dp/Rob3.java,0\a\0a4861c34aacd76d59c95cfd0b704b99c7568921
+S
+#src/dp/LongestValidParentheses.java,4\4\440f09efd87b6980867017f4de30a9ea8febe29e
+N
+src/company/TitleToNumber.java,2\9\2975d2b7236a10fa1f5cbfb92e0d2e43806f5ab5
+H
+src/company/Subsets.java,5\0\50dc2ff06d88dd68839a6d186422b7e5d4e5fe1d
+K
+src/company/stoneGame2.java,a\5\a5335673c4cd9dd42fcf29168c4919d4416e5264
+J
+src/company/Partition.java,6\7\67db5309a22f21a0104cb6eb916b1fc93defbad9
+L
+src/company/MaxLevelSum.java,0\c\0cbd6e66a4360ee0e7e9f662b521a5ba4c3ca430
+U
+%src/company/LargestRectangleArea.java,2\2\226a9aa747476b826ac3f92726ee2bd856d19958
+M
+src/company/GcdOfStrings.java,4\1\4163ce570bd1a6fea9b927578660de03a6048525
+N
+src/company/FindCircleNum.java,c\9\c9dfc8f5d5f3e103db514a4c457ebc9a325296a1
+N
+src/company/CountStudents.java,d\8\d80929b88ee3830d9fdffa997f8437f294a3545e

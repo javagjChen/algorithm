@@ -1,4 +1,4 @@
-package stringandarr;
+package dp;
 
 /**
  * @author chengj
@@ -46,8 +46,10 @@ package stringandarr;
 //
 // Related Topics 栈 字符串 动态规划 👍 1640 👎 0
 public class LongestValidParentheses {
+
+
     public static void main(String[] args) {
-        System.out.println(longestValidParentheses(")()("));
+        System.out.println(longestValidParentheses2("()))"));
     }
     public static int longestValidParentheses(String s) {
         int ans = 0;
@@ -84,4 +86,34 @@ public class LongestValidParentheses {
         }
         return ans;
     }
+
+    /**
+     * 动态规划解法
+     * @param s
+     * @return
+     */
+    public static int longestValidParentheses2(String s) {
+        if (s == null || s.length() ==0){
+            return 0;
+        }
+        //已i结尾的最长有效字符长度是dp[i]
+        int[] dp = new int[s.length()];
+
+        int ans = 0;
+        int pre;
+        for (int i = 1;i<s.length();i++){
+            if (')' == s.charAt(i)){
+                pre = i - dp[i-1] - 1;
+                if (pre >= 0 && s.charAt(pre) == '('){
+                    dp[i] = dp[i - 1] + 2 + (pre > 0 ? dp[pre -1]:0);
+                }
+            }
+
+            ans = Math.max(ans,dp[i]);
+        }
+        return ans;
+
+    }
+
+
 }
