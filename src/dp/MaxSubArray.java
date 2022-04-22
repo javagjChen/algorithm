@@ -50,8 +50,9 @@ public class MaxSubArray {
 
     public static void main(String[] args) {
         MaxSubArray maxSubArray = new MaxSubArray();
-        System.out.println(maxSubArray.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+        System.out.println(maxSubArray.maxSubArray2(new int[]{2}));
     }
+
     public int maxSubArray(int[] nums) {
 
         if (nums.length == 1) {
@@ -63,5 +64,21 @@ public class MaxSubArray {
             max = Math.max(max,pre);
         }
         return max;
+    }
+
+    /**
+     * 动态规划解法
+     * @param nums
+     * @return
+     */
+    public int maxSubArray2(int[] nums) {
+        int ans = nums[0];
+        int[] dp = new int[nums.length];
+        dp[0] = nums[0];
+        for (int i = 1;i<nums.length;i++){
+            dp[i] = Math.max(dp[i-1]+nums[i],nums[i]);
+            ans = Math.max(ans,dp[i]);
+        }
+        return ans;
     }
 }

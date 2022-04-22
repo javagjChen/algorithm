@@ -252,8 +252,6 @@ P
  src/weekgame/MaximumCandies.java,e\0\e030fd7cebefa4f928e2041a8c93a0a1f3b687b4
 P
  src/weekgame/MaximumProduct.java,5\e\5e71ed213eb864abb7b071479914f8b4fa8223c4
-G
-src/dp/MaxSubArray.java,f\7\f74f5e754726b2dcbca8595a2bb1723adcd34caf
 M
 src/dp/LastStoneWeightII.java,c\5\c5a19943595667ef6551a90c6b4ab1b114b302d6
 Q
@@ -350,3 +348,19 @@ N
 src/company/FindCircleNum.java,c\9\c9dfc8f5d5f3e103db514a4c457ebc9a325296a1
 N
 src/company/CountStudents.java,d\8\d80929b88ee3830d9fdffa997f8437f294a3545e
+O
+src/company/ConvertToTitle.java,1\6\16d011cdadbe5d36e260f024d275fb05de0afd10
+P
+ src/company/ContainsPattern.java,5\5\55f2111afd6993a4cb7b400db9be788897822494
+F
+src/dp/MaxProfit3.java,6\4\6457e59a83f31e268fd4f85b0e41bd495fff43b2
+F
+src/dp/MaxProfit4.java,e\d\edfbfafbe4b8ce8e28a1e38240ecbd8ea4641923
+I
+src/greedy/MaxProfit.java,a\9\a9761183fff06f5b84fd08418d03d0e2bbced948
+J
+src/greedy/MaxProfit2.java,2\b\2bcda05b35feed02851e885f4384259bf06e2624
+M
+src/dp/MaxProfitWithCool.java,0\d\0dbdb4b7ade2f5554acd5285d3c6618cd602b159
+L
+src/dp/MaxProfitWithFee.java,8\d\8d3668ea0b1749128ce7c220cb177a7edf783651
