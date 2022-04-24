@@ -2,7 +2,7 @@ package dp;
 
 /**
  * @author chengj
- * @Description 1035.不想交的线 中等
+ * @Description 1035.不相交的线 中等
  * @Date 2022/4/22
  */
 //在两条独立的水平线上按给定的顺序写下 nums1 和 nums2 中的整数。
