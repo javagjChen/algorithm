@@ -44,7 +44,22 @@ public class Subsets {
         System.out.println(subsets.subsets(new int[]{1,2,3}).toString());
     }
     public List<List<Integer>> subsets(int[] nums) {
-        return null;
+        List<List<Integer>> ans = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+
+        doBack(ans,list,nums,0);
+        return ans;
+    }
+
+    private void doBack(List<List<Integer>> ans, List<Integer> list, int[] nums, int index) {
+
+        ans.add(new ArrayList<>(list));
+
+        for (int i = index; i < nums.length;i++){
+            list.add(nums[i]);
+            doBack(ans,list,nums,i+1);
+            list.remove(list.size() -1);
+        }
     }
 
 }

@@ -1,5 +1,6 @@
 package company;
 
+
 /**
  * @author chengj
  * @Description 86.分隔链表 中等 03
@@ -40,10 +41,60 @@ package company;
 //leetcode submit region begin(Prohibit modification and deletion)
 public class Partition {
 
-    public ListNode partition(ListNode head, int x) {
-        return null;
+    public static void main(String[] args) {
+        Partition partition = new Partition();
+        ListNode curr = new ListNode(4);
+        curr.next = new ListNode(1);
+        curr.next.next = new ListNode(3);
+        curr.next.next.next = new ListNode(2);
+        curr.next.next.next.next = new ListNode(5);
+        curr.next.next.next.next.next = new ListNode(2);
+        partition.partition(curr,3);
     }
 
-    private class ListNode {
+    public ListNode partition(ListNode head, int x) {
+        if (head == null){
+            return null;
+        }
+        ListNode ans = null;
+        ListNode ansCurr = null;
+        ListNode sAns = null;
+        ListNode sAnsCurr = null;
+        ListNode curr = head;
+        while (curr != null){
+            int val = curr.val;
+            if (val >= x){
+                if (ans == null){
+                    ans = new ListNode(val);
+                    ansCurr = ans;
+                }else {
+                    ansCurr.next = new ListNode(val);
+                    ansCurr = ansCurr.next;
+                }
+            }else {
+                if (sAns == null){
+                    sAns = new ListNode(val);
+                    sAnsCurr = sAns;
+                }else {
+                    sAnsCurr.next = new ListNode(val);
+                    sAnsCurr = sAnsCurr.next;
+                }
+            }
+            curr = curr.next;
+        }
+        if (sAns == null){
+            return ans;
+        }
+        sAnsCurr.next = ans;
+        return sAns;
+    }
+
+    private static class ListNode {
+
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 }

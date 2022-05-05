@@ -1,5 +1,10 @@
 package company;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 /**
  * @author chengj
  * @Description 1700.无法吃午餐的学生数量 简单 10
@@ -55,7 +60,38 @@ package company;
 // Related Topics 栈 队列 数组 模拟 👍 37 👎 0
 public class CountStudents {
 
-    public int countStudents(int[] students, int[] sandwiches) {
-        return 0;
+    public static void main(String[] args) {
+        CountStudents countStudents = new CountStudents();
+
+        int[] students = new int[]{  1,1,1,0,0,1};
+        int[] sandwiches = new int[]{1,0,0,0,1,1};
+//        int[] students = new int[]{1,1,0,0};
+//        int[] sandwiches = new int[]{0,1,0,1};
+        System.out.println(countStudents.countStudents(students,sandwiches));
     }
+
+    public int countStudents(int[] students, int[] sandwiches) {
+        Queue<Integer> queue = new LinkedList<>();
+        for (int val : students){
+            queue.add(val);
+        }
+        int index = 0;
+        while (!queue.isEmpty()){
+            int size = queue.size();
+            for (int i = 0;i < size;i++) {
+                int t = queue.poll();
+                if (t == sandwiches[index]) {
+                    index++;
+                } else {
+                    queue.add(t);
+                }
+            }
+            if (size == queue.size()){
+                break;
+            }
+        }
+        return queue.size();
+    }
+
+
 }

@@ -1,5 +1,10 @@
 package company;
 
+
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author chengj
  * @Description 1161.最大层内元素和 中等 04
@@ -47,9 +52,38 @@ package company;
 public class MaxLevelSum {
 
     public int maxLevelSum(TreeNode root) {
-        return 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        int sum = Integer.MIN_VALUE;
+        int ans = 0;
+        int index = 1;
+        while (!queue.isEmpty()){
+            int size = queue.size();
+            int t = 0;
+            for (int i =0;i < size;i++){
+                TreeNode node = queue.poll();
+                t += node.val;
+                if (node.left != null){
+                    queue.add(node.left);
+                }
+                if (node.right  != null){
+                    queue.add(node.right);
+                }
+            }
+            if (t > sum){
+                sum = t;
+                ans = index;
+            }
+            index++;
+
+        }
+        return ans;
     }
 
     private class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
     }
 }

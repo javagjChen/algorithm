@@ -168,6 +168,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1130]叶值的最小代价生成树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1130]叶值的最小代价生成树.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1130" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1130]叶值的最小代价生成树.java" />
+              <option name="titleSlug" value="minimum-cost-tree-from-leaf-values" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[113]路径总和 II.java">
           <value>
             <LeetcodeEditor>
@@ -737,6 +748,28 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2244]完成所有任务需要的最少轮数.java" />
               <option name="titleSlug" value="minimum-rounds-to-complete-all-tasks" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2255]统计是给定字符串前缀的字符串数目.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2255]统计是给定字符串前缀的字符串数目.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2255" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2255]统计是给定字符串前缀的字符串数目.java" />
+              <option name="titleSlug" value="count-prefixes-of-a-given-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2256]最小平均差.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2256]最小平均差.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2256" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2256]最小平均差.java" />
+              <option name="titleSlug" value="minimum-average-difference" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1323,6 +1356,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[496]下一个更大元素 I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[496]下一个更大元素 I.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com496" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[496]下一个更大元素 I.java" />
+              <option name="titleSlug" value="next-greater-element-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[501]二叉搜索树中的众数.java">
           <value>
             <LeetcodeEditor>
@@ -1331,6 +1375,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[501]二叉搜索树中的众数.java" />
               <option name="titleSlug" value="find-mode-in-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[503]下一个更大元素 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[503]下一个更大元素 II.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com503" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[503]下一个更大元素 II.java" />
+              <option name="titleSlug" value="next-greater-element-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1771,6 +1826,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[730]统计不同回文子序列.java" />
               <option name="titleSlug" value="count-different-palindromic-subsequences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[739]每日温度.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[739]每日温度.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com739" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[739]每日温度.java" />
+              <option name="titleSlug" value="daily-temperatures" />
             </LeetcodeEditor>
           </value>
         </entry>

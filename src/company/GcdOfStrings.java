@@ -43,7 +43,29 @@ package company;
 // Related Topics 数学 字符串 👍 229 👎 0
 public class GcdOfStrings {
 
+    public static void main(String[] args) {
+        GcdOfStrings gos = new GcdOfStrings();
+        System.out.println(gos.gcdOfStrings("TAUXXTAUXXTAUXXTAUXXTAUXX","TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX"));
+    }
     public String gcdOfStrings(String str1, String str2) {
-        return null;
+
+        for (int i = Math.min(str1.length(),str2.length());i >=1;i--)
+            if (str1.length() % i == 0 && str2.length() % i == 0) {
+                String t = str1.substring(0, i);
+                if (check(t, str1) && check(t, str2)) {
+                    return t;
+                }
+            }
+        return "";
+    }
+
+    private boolean check(String t, String str1) {
+        int index = str1.length()/t.length();
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 1;i<=index;i++){
+            stringBuilder.append(t);
+
+        }
+        return stringBuilder.toString().equals(str1);
     }
 }

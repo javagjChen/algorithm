@@ -62,32 +62,25 @@ package company;
 public class ContainsPattern {
     public static void main(String[] args) {
         ContainsPattern containsPattern = new ContainsPattern();
-        System.out.println(containsPattern.containsPattern(new int[]{3,2,2,1,2,2,1,1,1,2,3,2,2},3,2));
+        System.out.println(containsPattern.containsPattern(new int[]{1,2,1,2,1,1,1,3},2,2));
     }
     public boolean containsPattern(int[] arr, int m, int k) {
-        if (m > arr.length){
+        int len = arr.length;
+        if(len < m*k){
             return false;
         }
-        StringBuilder old = new StringBuilder();
-        for (int i = 0 ;i < m;i++){
-            old.append(arr[i]);
-        }
-        int t = 1;
-        for (int i = m ;i < arr.length;i += m){
-            StringBuilder stringBuilder = new StringBuilder();
-            for (int j = i;j < i + m && j < arr.length;j++){
-                stringBuilder.append(arr[j]);
-            }
-            if (Integer.parseInt(old.toString()) == Integer.parseInt(stringBuilder.toString())){
-                t++;
-                if (k == t){
-                    return true;
+        for(int i = 0;i <= len - k*m;i++){
+            int offset;
+            for (offset = 0;offset< k*m;offset++){
+                if (arr[i+offset] != arr[i + offset%m]){
+                    break;
                 }
-            }else {
-                old = stringBuilder;
-                t = 1;
+            }
+
+            if (offset == m *k ){
+                return true;
             }
         }
-        return k <= t ? true:false;
+        return false;
     }
 }
