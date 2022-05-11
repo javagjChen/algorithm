@@ -2,7 +2,7 @@ package link;
 
 /**
  * @author chengj
- * @Description 移除链表元素 简单
+ * @Description 203.移除链表元素 简单
  * @Date 2022/2/22
  */
 //给你一个链表的头节点 head 和一个整数 val ，请你删除链表中所有满足 Node.val == val 的节点，并返回 新的头节点 。
@@ -56,6 +56,7 @@ public class RemoveElements {
         ListNode ans = new ListNode(0);
         ans.next = head;
         ListNode curr = ans;
+        //关键是找到要删除节点的前一个节点
         while ( curr.next != null){
             if (curr.next.val == val){
                 curr.next = curr.next.next;

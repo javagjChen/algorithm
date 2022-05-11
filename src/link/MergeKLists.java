@@ -1,7 +1,7 @@
 package link;
 
 /**
- * @Description 合并K个升序链表 困难
+ * @Description 23.合并K个升序链表 困难
  * @Author chengj
  * @Date 2022/1/17
  */
@@ -72,6 +72,7 @@ public class MergeKLists {
         return result;
     }
 
+    // 合并两个链表
     public ListNode mergeLists(ListNode link1,ListNode link2){
         if (link1 == null){
             return link2;

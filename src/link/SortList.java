@@ -1,7 +1,12 @@
 package link;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
 /**
- * @Description 排序链表 中等
+ * @Description 148.排序链表 中等
  * @Author chengj
  * @Date 2022/1/24
  */
@@ -52,18 +57,39 @@ package link;
 public class SortList {
 
     public static void main(String[] args) {
+        SortList sortList = new SortList();
         ListNode l1 = new ListNode(4);
         l1.next = new ListNode(2);
         l1.next.next = new ListNode(1);
         l1.next.next.next = new ListNode(3);
-        ListNode result = sortList(l1);
+        ListNode result = sortList.sortList(l1);
         System.out.println(result.toString());
     }
-    public static ListNode sortList(ListNode head) {
+
+    public ListNode sortList2(ListNode head) {
+        List<Integer> list = new ArrayList<>();
+        ListNode curr = head;
+        int len = 0;
+        while (curr != null){
+            list.add(curr.val);
+            curr = curr.next;
+            len++;
+        }
+        Collections.sort(list);
+        ListNode ans = new ListNode(0);
+        curr = ans;
+        for (Integer val : list){
+            curr.next = new ListNode(val);
+            curr = curr.next;
+        }
+        return ans.next;
+    }
+    public ListNode sortList(ListNode head) {
 
         if (head == null || head.next == null){
             return head;
         }
+        // 4,2,1,3
         ListNode slow = head;
         ListNode fast = head.next;
         while (fast != null && fast.next != null){

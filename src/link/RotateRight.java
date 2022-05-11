@@ -1,7 +1,7 @@
 package link;
 
 /**
- * @Description 旋转链表 中等
+ * @Description 61.旋转链表 中等
  * @Author chengj
  * @Date 2022/1/29
  */
@@ -51,7 +51,8 @@ public class RotateRight {
         }
         // 组成环
         tail.next = head;
-
+        // 1,2,3,4,5  k =2
+        // 4,5,1,2,3
         ListNode newHead,newTail = head;
         k = k %len;
         // 找到断开位置

@@ -1,5 +1,8 @@
 package arr;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author chengj
  * @Description 长度最小的子数组 中等
@@ -111,17 +114,37 @@ public class MinSubArrayLen {
      * @return
      */
     public int minSubArrayLen3(int target, int[] nums) {
+        //返回的结果
         int min = Integer.MAX_VALUE;
+        // 这里用queue代替容易理解，只标记开始位置比较节约空间
         int start = 0;
         int sum = 0;
         for (int i = 0;i < nums.length;i++){
             sum += nums[i];
             while (sum >= target){
+                // 如果queue代替的话，直接比较queue.size()和min
                 min = Math.min(min,i - start +1);
                 sum -= nums[start++];
             }
         }
 
         return min == Integer.MAX_VALUE ? 0 : min;
+    }
+
+    // 2,3,1,2,4,3
+    public int minSubArrayLenPractice(int target, int[] nums){
+        int ans = Integer.MAX_VALUE;
+        int sum = 0;
+        Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0;i < nums.length;i++){
+            queue.add(nums[i]);
+            sum += nums[i];
+            while (sum >= target){
+                ans = Math.min(ans,queue.size());
+                sum -= queue.poll();
+            }
+
+        }
+        return ans ==Integer.MAX_VALUE? 0:ans;
     }
 }

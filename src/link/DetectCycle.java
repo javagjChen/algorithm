@@ -85,12 +85,14 @@ public class DetectCycle {
             }else {
                 return null;
             }
+            // 快慢指针相交
             if (slow == fast){
                 ListNode ptr = head;
                 while (slow != ptr){
                     slow = slow.next;
                     ptr = ptr.next;
                 }
+                // 相等的时候就是环的入口
                 return ptr;
             }
         }

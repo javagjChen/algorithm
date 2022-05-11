@@ -102,9 +102,13 @@ public class LongestValidParentheses {
         int ans = 0;
         int pre;
         for (int i = 1;i<s.length();i++){
+            // 如果是'(' 就不用判断了，dp[i] 就是0
             if (')' == s.charAt(i)){
                 pre = i - dp[i-1] - 1;
+                // 如果pre是')'的话，dp[i]肯定是0，
+                // 因为如果pre是')'它要么没有和他组成有效的'(' 要么它的长度已经包含在dp[i-1]里了
                 if (pre >= 0 && s.charAt(pre) == '('){
+                    //dp[i]至少是dp[i - 1] + 2 pre不越界的情况下接上dp[pre -1]，dp[pre -1]是0也没关系
                     dp[i] = dp[i - 1] + 2 + (pre > 0 ? dp[pre -1]:0);
                 }
             }

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author chengj
- * @Description 31.下一个排列
+ * @Description 31.下一个排列 中等
  * @Date 2022/5/7
  */
 //整数数组的一个 排列 就是将其所有成员以序列或线性顺序排列。

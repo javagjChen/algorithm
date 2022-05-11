@@ -1,7 +1,7 @@
 package link;
 
 /**
- * @Description SwapPairs 两两交换链表中的节点 中等
+ * @Description SwapPairs 24.两两交换链表中的节点 中等
  * @Author chengj
  * @Date 2022/1/20
  */
@@ -43,6 +43,7 @@ package link;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 public class SwapPairs {
+
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(2);
@@ -97,8 +98,12 @@ public class SwapPairs {
         return result.next;
     }
 
-
-    public static ListNode swapPairs2(ListNode head) {
+    /**
+     * 双指针
+     * @param head
+     * @return
+     */
+    public ListNode swapPairs2(ListNode head) {
 
         if (head == null || head.next == null){
             return head;

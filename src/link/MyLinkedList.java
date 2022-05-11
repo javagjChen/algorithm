@@ -2,7 +2,7 @@ package link;
 
 /**
  * @author chengj
- * @Description 设计链表 中等
+ * @Description 707.设计链表 中等
  * @Date 2022/2/22
  */
 //设计链表的实现。您可以选择使用单链表或双链表。单链表中的节点应该具有两个属性：val 和 next。val 是当前节点的值，next 是指向下一个节点的指针

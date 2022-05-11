@@ -1,4 +1,10 @@
 package link;
+
+/**
+ * @Description 25.K个一组翻转链表 困难
+ * @Author chengj
+ * @Date 2022/1/24
+ */
 //给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
 //
 // k 是一个正整数，它的值小于或等于链表的长度。
@@ -57,13 +63,9 @@ package link;
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * @Description K个一组翻转链表 困难
- * @Author chengj
- * @Date 2022/1/24
- */
 public class reverseKGroup {
 
+    // 1,2,3,4,5
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null){
             return null;
@@ -73,6 +75,7 @@ public class reverseKGroup {
         ListNode pre = hair;
         ListNode end = hair;
         while (end.next != null){
+            // 找到结束节点
             for (int i =0 ;i < k && end != null;i++){
                 end = end.next;
             }
@@ -81,7 +84,9 @@ public class reverseKGroup {
                 break;
             }
             ListNode start = pre.next;
+            //保存翻转前的节点
             ListNode next = end.next;
+            // 端开
             end.next = null;
             pre.next = reverse(start);
             start.next = next;

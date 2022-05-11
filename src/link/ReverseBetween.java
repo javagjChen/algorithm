@@ -1,7 +1,7 @@
 package link;
 
 /**
- * @author chengj 反转链表2 中等
+ * @author chengj 92.反转链表2 中等
  * @Description
  * @Date 2022/2/11
  */
@@ -58,6 +58,7 @@ public class ReverseBetween {
         ListNode pre = hair;
         ListNode end = hair;
         int index = 1;
+        // 找到left的前一个节点
         while (index < left){
             index++;
             pre = pre.next;
@@ -65,6 +66,8 @@ public class ReverseBetween {
         }
         // 切断出一个子链
         ListNode begin = pre.next;
+        // 找到right节点
+        // 1,2,3,4,5
         int len = right - left + 1;
         while (len > 0){
             len--;
@@ -76,7 +79,7 @@ public class ReverseBetween {
         end.next = null;
         // 反转
         pre.next = reverse(begin);;
-        begin.next= leftList;
+        begin.next = leftList;
 
         return hair.next;
     }

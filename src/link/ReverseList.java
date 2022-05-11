@@ -2,7 +2,7 @@ package link;
 
 /**
  * @author chengj
- * @Description 反转链表 简单
+ * @Description 206反转链表 简单
  * @Date 2022/2/23
  */
 //给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。
