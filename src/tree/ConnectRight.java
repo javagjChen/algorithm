@@ -7,7 +7,7 @@ import java.util.Queue;
 
 /**
  * @author chengj
- * @Description 填充每个节点的下一个右侧节点指针 中等
+ * @Description 116.填充每个节点的下一个右侧节点指针 中等
  * @Date 2022/3/4
  */
 //给定一个二叉树

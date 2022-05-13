@@ -2,7 +2,7 @@ package tree;
 
 /**
  * @author chengj
- * @Description 修剪二叉搜索树 中等
+ * @Description 669.修剪二叉搜索树 中等
  * @Date 2022/3/14
  */
 //给你二叉搜索树的根节点 root ，同时给定最小边界low 和最大边界 high。通过修剪二叉搜索树，使得所有节点的值在[low, high]中。修剪树 不

@@ -3,7 +3,7 @@ package tree;
 
 /**
  * @author chengj
- * @Description 最大二叉树 中等
+ * @Description 654.最大二叉树 中等
  * @Date 2022/3/9
  */
 //给定一个不重复的整数数组 nums 。 最大二叉树 可以用下面的算法从 nums 递归地构建:
@@ -66,6 +66,7 @@ public class ConstructMaximumBinaryTree {
         if (left > right){
             return null;
         }
+        //最大值的下标
         int maxIndex = left;
         for (int i = left;i <= right;i++){
             if (nums[maxIndex] < nums[i]){

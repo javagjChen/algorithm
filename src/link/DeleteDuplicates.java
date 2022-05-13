@@ -45,9 +45,9 @@ public class DeleteDuplicates {
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(1);
         l1.next.next = new ListNode(1);
-        l1.next.next.next = new ListNode(2);
+       // l1.next.next.next = new ListNode(2);
 //        l1.next.next.next.next = new ListNode(5);
-        System.out.println(dd.deleteDuplicates(l1));
+        System.out.println(dd.deleteDuplicates2(l1));
     }
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null){
@@ -69,7 +69,28 @@ public class DeleteDuplicates {
         }
         return ans.next;
     }
+    public ListNode deleteDuplicates2(ListNode head) {
+        if (head == null){
+            return null;
+        }
+        Map<Integer, Integer> map = new HashMap<>();
+        ListNode curr = head;
+        while (curr != null){
+            map.put(curr.val,map.getOrDefault(curr.val,0) + 1);
+            curr = curr.next;
+        }
+        ListNode ans = new ListNode(-101);
+        ans.next = head;
+        curr = ans;
+        while (curr != null ){
+            while (curr.next != null && map.get(curr.next.val) > 1) {
+                curr.next = curr.next.next;
+            }
+            curr = curr.next;
 
+        }
+        return ans.next;
+    }
     public static class ListNode {
         int val;
         ListNode next;

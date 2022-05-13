@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author chengj
- * @Description 对称二叉树 简单
+ * @Description 101.对称二叉树 简单
  * @Date 2022/3/7
  */
 //给你一个二叉树的根节点 root ， 检查它是否轴对称。 

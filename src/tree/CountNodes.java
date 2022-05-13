@@ -1,8 +1,11 @@
 package tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author chengj
- * @Description 完全二叉树的节点个数 中等
+ * @Description 222.完全二叉树的节点个数 中等
  * @Date 2022/3/7
  */
 //给你一棵 完全二叉树 的根节点 root ，求出该树的节点个数。
@@ -63,6 +66,30 @@ public class CountNodes {
         int left = preOrder(node.left);
         int right = preOrder(node.right);
         return left + right + 1;
+    }
+
+    //层序遍历也可以
+    public int countNodes2(TreeNode root) {
+        if (root == null){
+            return 0;
+        }
+        int ans = 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            int size = queue.size();
+            ans += size;
+            for (int i =0;i < size;i++){
+                TreeNode node = queue.poll();
+                if (node.left != null){
+                    queue.add(node.left);
+                }
+                if (node.right != null){
+                    queue.add(node.right);
+                }
+            }
+        }
+        return ans;
     }
 
     public class TreeNode {

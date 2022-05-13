@@ -5,7 +5,7 @@ import java.util.Queue;
 
 /**
  * @author chengj
- * @Description 二叉树的最小深度 简单
+ * @Description 111.二叉树的最小深度 简单
  * @Date 2022/3/4
  */
 //给定一个二叉树，找出其最小深度。 

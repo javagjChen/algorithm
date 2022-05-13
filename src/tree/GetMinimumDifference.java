@@ -1,11 +1,12 @@
 package tree;
 
+import java.lang.management.ManagementFactory;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author chengj
- * @Description 二叉搜索树的最小绝对差 简单
+ * @Description 530.二叉搜索树的最小绝对差 简单
  * @Date 2022/3/12
  */
 //给你一个二叉搜索树的根节点 root ，返回 树中任意两不同节点值之间的最小差值 。 
@@ -66,6 +67,25 @@ public class GetMinimumDifference {
         }
         rootVal = root.val;
         inOrder(root.right);
+    }
+
+    public int getMinimumDifference2(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        inOrder(root,list);
+        int ans = Integer.MAX_VALUE;
+        for (int i = 1;i < list.size();i++){
+            ans = Math.min(ans, Math.abs(list.get(i) - list.get(i-1)));
+        }
+        return ans;
+    }
+
+    private void inOrder(TreeNode root, List<Integer> list) {
+        if (root == null){
+            return;
+        }
+        inOrder(root.left,list);
+        list.add(root.val);
+        inOrder(root.right,list);
     }
 
     private class TreeNode {

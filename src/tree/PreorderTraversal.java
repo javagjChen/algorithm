@@ -6,7 +6,7 @@ import java.util.Stack;
 
 /**
  * @author chengj
- * @Description 二叉树的前序遍历 简单
+ * @Description 144.二叉树的前序遍历 简单
  * @Date 2022/3/3
  */
 //给你二叉树的根节点 root ，返回它节点值的 前序 遍历。

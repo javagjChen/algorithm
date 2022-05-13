@@ -2,7 +2,7 @@ package tree;
 
 /**
  * @author chengj
- * @Description 二叉搜索树中的搜索 简单
+ * @Description 700.二叉搜索树中的搜索 简单
  * @Date 2022/3/11
  */
 //给定二叉搜索树（BST）的根节点 root 和一个整数值 val。

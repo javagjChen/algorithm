@@ -7,7 +7,7 @@ import java.util.Queue;
 
 /**
  * @author chengj
- * @Description 二叉树的层平均值 简单
+ * @Description 637.二叉树的层平均值 简单
  * @Date 2022/3/4
  */
 //给定一个非空二叉树的根节点 root , 以数组的形式返回每一层节点的平均值。与实际答案相差 10⁻⁵ 以内的答案可以被接受。 

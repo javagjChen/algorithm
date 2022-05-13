@@ -2,7 +2,7 @@ package tree;
 
 /**
  * @author chengj
- * @Description 合并二叉树 简单
+ * @Description 617.合并二叉树 简单
  * @Date 2022/3/10
  */
 //给你两棵二叉树： root1 和 root2 。

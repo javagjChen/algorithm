@@ -2,7 +2,7 @@ package tree;
 
 /**
  * @author chengj
- * @Description 验证二叉搜索树 中等
+ * @Description 98.验证二叉搜索树 中等
  * @Date 2022/3/11
  */
 //给你一个二叉树的根节点 root ，判断其是否是一个有效的二叉搜索树。 

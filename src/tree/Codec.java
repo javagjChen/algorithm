@@ -7,7 +7,7 @@ import java.util.Queue;
 
 /**
  * @author chengj
- * @Description 二叉树的序列化与反序列化 困难
+ * @Description 297.二叉树的序列化与反序列化 困难
  * @Date 2022/3/7
  */
 //序列化是将一个数据结构或者对象转换为连续的比特位的操作，进而可以将转换后的数据存储在一个文件或者内存中，同时也可以通过网络传输到另一个计算机环境，采取相反方
@@ -69,7 +69,8 @@ public class Codec {
         doPreOrder(root,ans);
         return String.join(",",ans);
     }
-
+    // 1,2,3,null,null,4,5
+    // 前序遍历后的ans : 1,2,null,null,3,4,null,null,5,null,null
     private void doPreOrder(TreeNode root,List<String> ans) {
         if (root == null ){
             ans.add(null);
@@ -89,7 +90,7 @@ public class Codec {
         }
         return doDeserialize(queue);
     }
-
+    // 前序遍历后的ans : 1,2,null,null,3,4,null,null,5,null,null
     private TreeNode doDeserialize(Queue<String> queue) {
         String tmp = queue.poll();
         if (tmp == null || "null".equals(tmp)){

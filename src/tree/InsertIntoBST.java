@@ -2,7 +2,7 @@ package tree;
 
 /**
  * @author chengj
- * @Description 二叉搜索树中的插入操作 中等
+ * @Description 701.二叉搜索树中的插入操作 中等
  * @Date 2022/3/14
  */
 //给定二叉搜索树（BST）的根节点 root 和要插入树中的值 value ，将值插入二叉搜索树。 返回插入后二叉搜索树的根节点。 输入数据 保证 ，新值和原
@@ -61,10 +61,12 @@ public class InsertIntoBST {
     }
 
     private void doInsert(TreeNode root, int val){
+        // 插入左节点
         if (root.left == null && root.val > val){
             root.left = new TreeNode(val);
             return;
         }
+        // 插入右节点
         if (root.right == null && root.val < val){
             root.right = new TreeNode(val);
             return;

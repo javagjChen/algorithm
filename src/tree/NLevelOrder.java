@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author chengj
- * @Description N 叉树的层序遍历 中等
+ * @Description 429.N 叉树的层序遍历 中等
  * @Date 2022/3/4
  */
 //给定一个 N 叉树，返回其节点值的层序遍历。（即从左到右，逐层遍历）。

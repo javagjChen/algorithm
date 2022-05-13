@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @author chengj
- * @Description 从前序与中序遍历序列构造二叉树 中等
+ * @Description 105.从前序与中序遍历序列构造二叉树 中等
  * @Date 2022/3/9
  */
 //给定两个整数数组 preorder 和 inorder ，其中 preorder 是二叉树的先序遍历， inorder 是同一棵树的中序遍历，请构造二叉树并
@@ -65,6 +65,7 @@ public class BuildTreeByInAndPre {
         int rootVal = preorder[postIndex++];
         TreeNode root = new TreeNode(rootVal);
         int rootIndex = map.get(rootVal);
+        //这里一定是先构建左子树的
         root.left = doBuildTree(leftIndex,rootIndex - 1);
         root.right = doBuildTree(rootIndex + 1,rightIndex);
         return root;

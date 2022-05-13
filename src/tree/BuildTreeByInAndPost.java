@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @author chengj
- * @Description 从中序与后序遍历序列构造二叉树 中等
+ * @Description 106.从中序与后序遍历序列构造二叉树 中等
  * @Date 2022/3/9
  */
 //给定两个整数数组 inorder 和 postorder ，其中 inorder 是二叉树的中序遍历， postorder 是同一棵树的后序遍历，请你构造并
@@ -46,9 +46,17 @@ import java.util.Map;
 //leetcode submit region begin(Prohibit modification and deletion)
 public class BuildTreeByInAndPost {
 
+    public static void main(String[] args) {
+        BuildTreeByInAndPost buildTreeByInAndPost = new BuildTreeByInAndPost();
+        int[] inorde =new int[]{4,2,5,1,6,3,7};
+        int[] postorder = new int[]{4,5,2,6,7,3,1};
+        System.out.println(buildTreeByInAndPost.buildTree(inorde,postorder));
+    }
+
     int postIndex = 0;
     private int[] postorder;
     Map<Integer, Integer> map = new HashMap<>();
+
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         this.postorder = postorder;
         postIndex = postorder.length - 1;
@@ -66,8 +74,10 @@ public class BuildTreeByInAndPost {
         int rootVal = postorder[postIndex--];
         TreeNode root = new TreeNode(rootVal);
         int rootIndex = map.get(rootVal);
-        root.left = doBuildTree(leftIndex,rootIndex - 1);
+        // 这里一定是先构建右子树的
         root.right = doBuildTree(rootIndex + 1,rightIndex);
+        root.left = doBuildTree(leftIndex,rootIndex - 1);
+
         return root;
     }
 

@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author chengj
- * @Description 二叉搜索树中的众数 简单
+ * @Description 501.二叉搜索树中的众数 简单
  * @Date 2022/3/13
  */
 //给你一个含重复值的二叉搜索树（BST）的根节点 root ，找出并返回 BST 中的所有 众数（即，出现频率最高的元素）。 

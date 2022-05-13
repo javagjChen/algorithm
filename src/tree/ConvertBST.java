@@ -2,7 +2,7 @@ package tree;
 
 /**
  * @author chengj
- * @Description 把二叉搜索树转换为累加树 中等 
+ * @Description 538.把二叉搜索树转换为累加树 中等
  * @Date 2022/3/14
  */
 //给出二叉 搜索 树的根节点，该树的节点值各不相同，请你将其转换为累加树（Greater Sum Tree），使每个节点 node 的新值等于原树中大于或等于

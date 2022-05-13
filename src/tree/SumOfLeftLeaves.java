@@ -1,8 +1,11 @@
 package tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author chengj
- * @Description 左叶子之和 简单
+ * @Description 404.左叶子之和 简单
  * @Date 2022/3/8
  */
 //给定二叉树的根节点 root ，返回所有左叶子之和。
@@ -60,6 +63,36 @@ public class SumOfLeftLeaves {
         int left = inOrder(node.left,true);
         int right = inOrder(node.right,false);
         return sum + left + right;
+    }
+
+    public int sumOfLeftLeaves2(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.offer(root);
+        int ans = 0;
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            if (node.left != null) {
+                if (isLeafNode(node.left)) {
+                    ans += node.left.val;
+                } else {
+                    queue.offer(node.left);
+                }
+            }
+            if (node.right != null) {
+                if (!isLeafNode(node.right)) {
+                    queue.offer(node.right);
+                }
+            }
+        }
+        return ans;
+    }
+
+    public boolean isLeafNode(TreeNode node) {
+        return node.left == null && node.right == null;
     }
 
     public class TreeNode {

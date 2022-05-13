@@ -2,7 +2,7 @@ package tree;
 
 /**
  * @author chengj
- * @Description 平衡二叉树 简单
+ * @Description 110.平衡二叉树 简单
  * @Date 2022/3/7
  */
 //给定一个二叉树，判断它是否是高度平衡的二叉树。
@@ -69,6 +69,23 @@ public class IsBalanced {
         return Math.abs(left - right) > 2 ? -1:Math.max(left,right) + 1;
     }
 
+    public boolean ans = true;
+    public boolean isBalanced2(TreeNode root) {
+        getHeight(root);
+        return ans;
+    }
+
+    private int getHeight(TreeNode node) {
+        if (node == null){
+            return 0;
+        }
+        int left = getHeight(node.left);
+        int right = getHeight(node.right);
+        if (Math.abs(left-right) >1){
+            ans = false;
+        }
+        return Math.max(left,right) + 1;
+    }
     private class TreeNode {
         int val;
         TreeNode left;
