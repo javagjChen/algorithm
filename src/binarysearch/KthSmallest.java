@@ -1,4 +1,4 @@
-package sort;
+package binarysearch;
 
 /**
  * @author chengj

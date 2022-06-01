@@ -388,6 +388,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1385]两个数组间的距离值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1385]两个数组间的距离值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1385" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1385]两个数组间的距离值.java" />
+              <option name="titleSlug" value="find-the-distance-value-between-two-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[139]单词拆分.java">
           <value>
             <LeetcodeEditor>
@@ -1158,6 +1169,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[367]有效的完全平方数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[367]有效的完全平方数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn367" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[367]有效的完全平方数.java" />
+              <option name="titleSlug" value="valid-perfect-square" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[36]有效的数独.java">
           <value>
             <LeetcodeEditor>
@@ -1166,6 +1188,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[36]有效的数独.java" />
               <option name="titleSlug" value="valid-sudoku" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[374]猜数字大小.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[374]猜数字大小.md" />
+              <option name="frontendQuestionId" value="leetcode.cn374" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[374]猜数字大小.java" />
+              <option name="titleSlug" value="guess-number-higher-or-lower" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1895,6 +1928,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[704]二分查找.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[704]二分查找.md" />
+              <option name="frontendQuestionId" value="leetcode.cn704" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[704]二分查找.java" />
+              <option name="titleSlug" value="binary-search" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[707]设计链表.java">
           <value>
             <LeetcodeEditor>
@@ -2035,6 +2079,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[84]柱状图中最大的矩形.java" />
               <option name="titleSlug" value="largest-rectangle-in-histogram" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[852]山脉数组的峰顶索引.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[852]山脉数组的峰顶索引.md" />
+              <option name="frontendQuestionId" value="leetcode.cn852" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[852]山脉数组的峰顶索引.java" />
+              <option name="titleSlug" value="peak-index-in-a-mountain-array" />
             </LeetcodeEditor>
           </value>
         </entry>
