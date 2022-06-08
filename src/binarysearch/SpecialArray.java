@@ -62,7 +62,7 @@ public class SpecialArray {
 
     public static void main(String[] args) {
         SpecialArray sa = new SpecialArray();
-        System.out.println(sa.specialArray(new int[]{1,0,0,6,4,9}));
+        System.out.println(sa.specialArray(new int[]{3,5}));
     }
 
     public int specialArray(int[] nums) {
@@ -87,11 +87,12 @@ public class SpecialArray {
             }
         }
         // // x 不存在 或者 大于 x 个元素 大于或者等于 x
-        if (l == -1 || (l + 1 != nums.length && nums[l + 1] >= l + 1)){
+        if (l == -1 || (l + 1 != len && nums[l + 1] >= l + 1)){
             return -1;
         }
         // x数量为下标+1
         return l + 1;
 
     }
+
 }
