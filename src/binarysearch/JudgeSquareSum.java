@@ -36,21 +36,23 @@ public class JudgeSquareSum {
 
     public static void main(String[] args) {
         JudgeSquareSum jss = new JudgeSquareSum();
-        System.out.println(jss.judgeSquareSum3(2147482647));
-
+        System.out.println(jss.judgeSquareSum(2147482647));
+        System.out.println((long)Math.sqrt(2147482646));
+        System.out.println((long)Math.sqrt(2147482647));
+        System.out.println((long)46341 * 46341);
     }
     /**
      * 也是采用蓝红二分，但和蓝红作者写的不一样，看看能不能解出来
-     * 有点坑，超时了
+     * 注意 i 要定义成 long 防止越界
      * @param c
      * @return
      */
     public boolean judgeSquareSum(int c) {
-        for (int i = 0; i * i <= c;i++){
+        for (long i = 0; i * i <= c;i++){
             // 这里是a平方
             long a = i * i;
             long l = i- 1;
-            long r = (long) Math.sqrt(c) + 1;
+            long r = (long)Math.sqrt(c) + 1;
             while (l + 1 != r){
                 long mid = l + (r - l)/2;
                 // 这里是b的平方

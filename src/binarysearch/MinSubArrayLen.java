@@ -1,4 +1,4 @@
-package arr;
+package binarysearch;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -131,6 +131,12 @@ public class MinSubArrayLen {
         return min == Integer.MAX_VALUE ? 0 : min;
     }
 
+    /**
+     * 用队列来保存滑动窗口
+     * @param target
+     * @param nums
+     * @return
+     */
     // 2,3,1,2,4,3
     public int minSubArrayLenPractice(int target, int[] nums){
         int ans = Integer.MAX_VALUE;
@@ -146,5 +152,39 @@ public class MinSubArrayLen {
 
         }
         return ans ==Integer.MAX_VALUE? 0:ans;
+    }
+
+    /**
+     * 蓝红二分查找解法
+     * @param target
+     * @param nums
+     * @return
+     */
+    public int minSubArrayLen4(int target, int[] nums) {
+        int ans = Integer.MAX_VALUE;
+        int len = nums.length;
+        // 前缀和
+        int[] preSum = new int[len + 1];
+        for (int i = 1; i <= len;i++){
+            preSum[i] = preSum[i - 1] + nums[i -1];
+        }
+
+        for (int i = 0;i < len;i++){
+            int t = target + preSum[i];
+            int l = -1;
+            int r = len + 1;
+            while (l + 1 != r) {
+                int mid = l + (r -l)/2;
+                if (preSum[mid] >= t){
+                    r = mid;
+                }else {
+                    l = mid;
+                }
+            }
+            if (r != len + 1){
+                ans = Math.min(ans,r - i);
+            }
+        }
+        return ans == Integer.MAX_VALUE ? 0: ans;
     }
 }

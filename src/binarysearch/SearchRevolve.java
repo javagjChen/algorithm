@@ -1,4 +1,4 @@
-package stringandarr;
+package binarysearch;
 
 /**
  * @Description 33.搜索旋转排序数组 中等
@@ -106,15 +106,16 @@ public class SearchRevolve {
             if (nums[mid] == target){
                 return mid;
             }
-            //0 - mid有序
+            //先根据 nums[mid] 与 nums[lo] 的关系判断 mid 是在左段还是右段
             if (nums[0] <= nums[mid]){
+                // 再判断 target 是在 mid 的左边还是右边，从而调整左右边界 l 和 r
                 if (nums[0] <= target && target < nums[mid]){
                     r = mid;
                 }else {
                     l = mid;
                 }
             }else {
-                // mid - len 有序
+
                 if ( nums[mid] < target && target <= nums[len -1]){
                     l = mid;
                 }else {
