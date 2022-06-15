@@ -56,16 +56,23 @@ public class LengthOfLIS {
 
     public static void main(String[] args) {
         LengthOfLIS lengthOfLIS = new LengthOfLIS();
-        int[] nums = new int[]{7,7,7,7,7};
-        System.out.println(lengthOfLIS.lengthOfLIS(nums));
+        int[] nums = new int[]{1,2,-10,-8,-7};
+        System.out.println(lengthOfLIS.lengthOfLIS2(nums));
     }
 
+    /**
+     * 动态规划解法
+     * @param nums
+     * @return
+     */
     public int lengthOfLIS(int[] nums) {
 
         int len = nums.length;
+        //定义 dp[i] 为考虑前i个元素，以第i个数字结尾的最长上升子序的长度，注意：nums[i] 必须被选取
         int[] dp = new int[len];
         Arrays.fill(dp,1);
         int ans = 0;
+        //
         for (int i = 0;i < len;i++){
             for (int j = 0;j < i;j++){
                 if (nums[i] > nums[j]){
@@ -76,4 +83,42 @@ public class LengthOfLIS {
         }
         return ans;
     }
+
+    /**
+     * 贪心 + 蓝红二分查找解法
+     * @param nums
+     * @return
+     */
+    public int lengthOfLIS2(int[] nums) {
+        // 先定义dp[i] 为 长度为i的最大上升子序的末尾元素的最小值
+        int len = nums.length;
+        int[] dp = new int[len + 1];
+        int dpLen = 1;
+        dp[1] = nums[0];
+        for (int i = 1 ;i < len;i++){
+            if(nums[i] > dp[dpLen]){
+                // 长度+1 更新dp[i]
+                dp[++dpLen] = nums[i];
+            }else {
+                // 蓝红二分查找 dp中第一个大于 nums[i] 的 ,然后替换
+                // 因为dp 是从1 开始的
+                int l = 0;
+                int r = dpLen;
+                while (l +1 != r){
+                    int mid = l + (r - l)/2;
+                    if (dp[mid] < nums[i]){
+                        l = mid;
+                    }else {
+                        r = mid;
+                    }
+                }
+                // 因为dp 是从1 开始的
+                dp[r] = nums[i];
+
+            }
+        }
+        return dpLen;
+    }
+
+
 }
