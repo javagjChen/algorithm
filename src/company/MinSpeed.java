@@ -9,8 +9,8 @@ public class MinSpeed {
 
     public static void main(String[] args) {
         MinSpeed ms = new MinSpeed();
-        int[] userStoryList = new int[]{4, 5, 6, 11};
-        System.out.println(ms.minSpeed(userStoryList, 8));
+        int[] userStoryList = new int[]{805306368,805306368,805306368};
+        System.out.println(ms.minSpeed(userStoryList, 1000000000));
     }
 
     public int minSpeed(int[] userStoryList, int H) {

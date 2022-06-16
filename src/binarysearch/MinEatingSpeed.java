@@ -54,8 +54,8 @@ public class MinEatingSpeed {
 
     public static void main(String[] args) {
         MinEatingSpeed mes = new MinEatingSpeed();
-        int[] piles = new int[]{30,11,23,4,20};
-        int h = 6;
+        int[] piles = new int[]{805306368,805306368,805306368};
+        int h = 1000000000;
         System.out.println(mes.minEatingSpeed(piles,h));
     }
 
@@ -80,8 +80,8 @@ public class MinEatingSpeed {
         return r;
     }
     // 3,6,7,11
-    private int checkHours(int[] piles,int mid) {
-        int count = 0;
+    private long checkHours(int[] piles,int mid) {
+        long count = 0;
         for (int val : piles){
             count += val%mid == 0? val/mid : (val/mid + 1);
         }

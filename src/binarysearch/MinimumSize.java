@@ -68,8 +68,8 @@ public class MinimumSize {
 
     public static void main(String[] args) {
         MinimumSize ms = new MinimumSize();
-        int[] nums = new int[]{2,4,8,2};
-        int maxOperations = 4;
+        int[] nums = new int[]{805306368,805306368,805306368};
+        int maxOperations = 1000000000;
         System.out.println(ms.minimumSize(nums,maxOperations));
     }
 
@@ -93,8 +93,8 @@ public class MinimumSize {
         return r;
     }
     // 统计拆分次数
-    private int checkCount(int[] nums, int mid) {
-        int count = 0;
+    private long checkCount(int[] nums, int mid) {
+        long count = 0;
         for (int val : nums){
             // 袋子里的球大于 目标x时才需要拆分
             if (val > mid){
