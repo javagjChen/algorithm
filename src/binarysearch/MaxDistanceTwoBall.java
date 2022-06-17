@@ -45,7 +45,7 @@ import java.util.Arrays;
 //
 // Related Topics 数组 二分查找 排序 👍 107 👎 0
 public class MaxDistanceTwoBall {
-
+    // 说明一下，这题不看题解的话，题目我都理解不了
     public int maxDistance(int[] position, int m) {
         Arrays.sort(position);
         int len = position.length;
