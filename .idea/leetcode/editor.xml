@@ -707,6 +707,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1870]准时到达的列车最小时速.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1870]准时到达的列车最小时速.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1870" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1870]准时到达的列车最小时速.java" />
+              <option name="titleSlug" value="minimum-speed-to-arrive-on-time" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[188]买卖股票的最佳时机 IV.java">
           <value>
             <LeetcodeEditor>
@@ -726,6 +737,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1894]找到需要补充粉笔的学生编号.java" />
               <option name="titleSlug" value="find-the-student-that-will-replace-the-chalk" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1898]可移除字符的最大数目.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1898]可移除字符的最大数目.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1898" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1898]可移除字符的最大数目.java" />
+              <option name="titleSlug" value="maximum-number-of-removable-characters" />
             </LeetcodeEditor>
           </value>
         </entry>
