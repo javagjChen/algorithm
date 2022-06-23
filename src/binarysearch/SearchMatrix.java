@@ -65,4 +65,27 @@ public class SearchMatrix {
         return false;
     }
 
+    /**
+     * 由左下角开始找
+     * @param matrix
+     * @param target
+     * @return
+     */
+    public boolean searchMatrix2(int[][] matrix, int target) {
+        int m = matrix.length;
+        int n = matrix[0].length;
+        int x = m -1;
+        int y = 0;
+        while (x >= 0 && y < n){
+            if (matrix[x][y] > target){
+                x--;
+            }else if (matrix[x][y] < target){
+                y++;
+            }else {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

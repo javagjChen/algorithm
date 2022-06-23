@@ -498,6 +498,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1482]制作 m 束花所需的最少天数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1482]制作 m 束花所需的最少天数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1482" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1482]制作 m 束花所需的最少天数.java" />
+              <option name="titleSlug" value="minimum-number-of-days-to-make-m-bouquets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[14]最长公共前缀.java">
           <value>
             <LeetcodeEditor>
@@ -693,6 +704,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[17]电话号码的字母组合.java" />
               <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1818]绝对差值和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1818]绝对差值和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1818" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1818]绝对差值和.java" />
+              <option name="titleSlug" value="minimum-absolute-sum-difference" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1838]最高频元素的频数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1838]最高频元素的频数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1838" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1838]最高频元素的频数.java" />
+              <option name="titleSlug" value="frequency-of-the-most-frequent-element" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1037,6 +1070,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2311]小于等于 K 的最长二进制子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2311]小于等于 K 的最长二进制子序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2311" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2311]小于等于 K 的最长二进制子序列.java" />
+              <option name="titleSlug" value="longest-binary-subsequence-less-than-or-equal-to-k" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[234]回文链表.java">
           <value>
             <LeetcodeEditor>
@@ -1133,6 +1177,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[26]删除有序数组中的重复项.java" />
               <option name="titleSlug" value="remove-duplicates-from-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[275]H 指数 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[275]H 指数 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn275" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[275]H 指数 II.java" />
+              <option name="titleSlug" value="h-index-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1870,6 +1925,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[53]最大子数组和.java" />
               <option name="titleSlug" value="maximum-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[540]有序数组中的单一元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[540]有序数组中的单一元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn540" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[540]有序数组中的单一元素.java" />
+              <option name="titleSlug" value="single-element-in-a-sorted-array" />
             </LeetcodeEditor>
           </value>
         </entry>
