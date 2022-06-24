@@ -674,6 +674,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1712]将数组分成三个子数组的方案数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1712]将数组分成三个子数组的方案数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1712" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1712]将数组分成三个子数组的方案数.java" />
+              <option name="titleSlug" value="ways-to-split-array-into-three-subarrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[171]Excel 表列序号.java">
           <value>
             <LeetcodeEditor>
@@ -1631,6 +1642,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[436]寻找右区间.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[436]寻找右区间.md" />
+              <option name="frontendQuestionId" value="leetcode.cn436" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[436]寻找右区间.java" />
+              <option name="titleSlug" value="find-right-interval" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[440]字典序的第K小数字.java">
           <value>
             <LeetcodeEditor>
@@ -2398,6 +2420,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[78]子集.java" />
               <option name="titleSlug" value="subsets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[826]安排工作以达到最大收益.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[826]安排工作以达到最大收益.md" />
+              <option name="frontendQuestionId" value="leetcode.cn826" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[826]安排工作以达到最大收益.java" />
+              <option name="titleSlug" value="most-profit-assigning-work" />
             </LeetcodeEditor>
           </value>
         </entry>

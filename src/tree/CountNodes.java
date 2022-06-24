@@ -92,6 +92,51 @@ public class CountNodes {
         return ans;
     }
 
+    /**
+     * 二分法
+     * @param root
+     * @return
+     */
+    public int countNodes3(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int level = 0;
+        TreeNode node = root;
+        while (node.left != null) {
+            level++;
+            node = node.left;
+        }
+        // 最后一层的范围是 2的 level次方 到 2的 level + 1次方-1
+        // 所以蓝红二分这样取值
+        int l = (1 << level) - 1;
+        int r = (1 << (level + 1));
+        while (l+1 != r) {
+            int mid = l + (r - l)/2;
+            if (exists(root, level, mid)) {
+                l = mid;
+            } else {
+                r = mid;
+            }
+        }
+        return l;
+
+    }
+
+    private boolean exists(TreeNode root, int level, int k) {
+        int bits = 1 << (level - 1);
+        TreeNode node = root;
+        while (node != null && bits > 0) {
+            if ((bits & k) == 0) {
+                node = node.left;
+            } else {
+                node = node.right;
+            }
+            bits >>= 1;
+        }
+        return node != null;
+    }
+
     public class TreeNode {
         int val;
         TreeNode left;
