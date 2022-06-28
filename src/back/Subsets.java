@@ -41,7 +41,7 @@ import java.util.List;
 public class Subsets {
     public static void main(String[] args) {
         Subsets subsets = new Subsets();
-        System.out.println(subsets.subsets(new int[]{1,2,3}).toString());
+        System.out.println(subsets.subsets(new int[]{1,2}).toString());
     }
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
