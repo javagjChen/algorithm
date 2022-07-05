@@ -49,12 +49,19 @@ public class FindClosestElements {
 
     public static void main(String[] args) {
         FindClosestElements fce = new FindClosestElements();
-        int[] arr = new int[]{-2,-1,1,2,3,4,5};
-        int k = 7;
+        int[] arr = new int[]{1,2,3,4,5};
+        int k = 4;
         int x = 3;
-        System.out.println(fce.findClosestElements(arr,k,x));
+        System.out.println(fce.findClosestElements2(arr,k,x));
     }
 
+    /**
+     * 蓝红二分法
+     * @param arr
+     * @param k
+     * @param x
+     * @return
+     */
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         List<Integer> ans = new ArrayList<>(k);
         int len = arr.length;
@@ -114,6 +121,42 @@ public class FindClosestElements {
             k--;
         }
         Collections.sort(ans);
+        return ans;
+    }
+
+    /**
+     * 排除法（双指针）
+     * @param arr
+     * @param k
+     * @param x
+     * @return
+     */
+    public List<Integer> findClosestElements2(int[] arr, int k, int x) {
+        List<Integer> ans = new ArrayList<>(k);
+
+        int len = arr.length;
+        int count = len - k;
+
+        int left = 0;
+        int right = len - 1;
+        while (count > 0 && left < len && right >= 0){
+            if ( Math.abs(arr[left] - x) < Math.abs(arr[right] - x) ){
+                right--;
+            }else if ( Math.abs(arr[left] - x) > Math.abs(arr[right] - x) ){
+                left++;
+            }else {
+                // 相等的时候，判断值的大小
+                if (arr[left] < arr[right]){
+                    right--;
+                }else {
+                    left++;
+                }
+            }
+            count--;
+        }
+        for (int i= left;i < left + k;i++){
+            ans.add(arr[i]);
+        }
         return ans;
     }
 }

@@ -49,7 +49,7 @@ package binarysearch;
 // 1 <= left <= right <= n * (n + 1) / 2
 //
 // Related Topics 数组 双指针 二分查找 排序 👍 51 👎 0
-public class rangeSum {
+public class RangeSum {
     static final int MODULO = 1000000007;
 
     public int rangeSum(int[] nums, int n, int left, int right) {
