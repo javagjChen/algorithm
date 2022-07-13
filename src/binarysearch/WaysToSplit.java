@@ -73,10 +73,10 @@ public class WaysToSplit {
             int r = len - 1;
             while (l + 1 != r){
                 int mid = l + (r - l)/2;
-                if (preSum[i + 1] > preSum[mid + 1] - preSum[i + 1]){
-                    l = mid;
-                }else {
+                if (preSum[i + 1] <= preSum[mid + 1] - preSum[i + 1]){
                     r = mid;
+                }else {
+                    l = mid;
                 }
             }
             int miniJ = r;

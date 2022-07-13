@@ -60,7 +60,7 @@ public class MinSumSquareDiff {
         int[] nums2 = new int[]{5,8,6,9};
         int k1 = 1;
         int k2 = 1;
-        System.out.println(minSumSquareDiff.minSumSquareDiff2(nums1,nums2,k1,k2));
+        System.out.println(minSumSquareDiff.minSumSquareDiff3(nums1,nums2,k1,k2));
     }
 
     /**
@@ -131,4 +131,68 @@ public class MinSumSquareDiff {
             return ans + k % m * (v - 1) * (v - 1) + (m - k % m) * v * v;
         }
     }
+
+    public boolean check(int[] diff, int mid, int cnt) {
+        long sum = 0;      // sum注意要为long long，不然int类型存不下100000*100000
+        for(int i: diff) {
+            sum += (Math.max(i, mid) - mid);
+        }
+        return sum <= cnt;          // 操作数小于k1+k2说明大值都可以缩小到mid
+    }
+
+    /**
+     * 二分法
+     * @param nums1
+     * @param nums2
+     * @param k1
+     * @param k2
+     * @return
+     */
+    public long minSumSquareDiff3(int[] nums1, int[] nums2, int k1, int k2) {
+        int n = nums1.length;
+        long sum = 0;      // sum注意要为long long，不然int类型存不下100000*100000
+        int[] diff = new int[n];
+        // 求差值数组
+        for(int i = 0; i < n; ++i) {
+            diff[i] = Math.abs(nums1[i] - nums2[i]);
+            sum += diff[i];
+        }
+        if(sum <= k1+k2)  {
+            return 0;               // 如果差值数组加和小于k1+k2，说明差值数组可以全部变为0
+        }
+
+        int l = -1, r = 100001;
+        while(l + 1 != r) {
+            int mid = l + (r- l) / 2;
+            if(check(diff, mid, k1+k2)) {
+                r = mid;
+            }else {
+                l = mid;
+            }
+        }
+        // 二分求目标值
+        int target = r;
+        int rest = k1 + k2;   // rest为剩余操作数
+        // 将所有大于target的值变为target
+        for(int i = 0; i < n; ++i) {
+            if(diff[i] > target) {
+                rest -= (diff[i] - target);      // 减去将该值变为target所需的操作数
+                diff[i] = target;                // 更新该值为target
+            }
+        }
+        // 如果剩余操作数大于0，说明还可以继续操作差值数组
+        // 继续对大值们进行修改，此时数组中的大值均为target，那么就为target的项就减去1，操作数也减1
+        for(int i = 0; i < n && rest > 0; ++i) {
+            if(diff[i] == target) {
+                --diff[i];
+                --rest;
+            }
+        }
+        long ans = 0;
+        for(int i: diff){
+            ans += (long) i * i;
+        }
+        return ans;
+    }
+
 }

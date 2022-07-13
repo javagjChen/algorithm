@@ -58,9 +58,6 @@ public class SearchMatrix {
                     return true;
                 }
             }
-            if (r < n && matrix[i][r] > target){
-                return false;
-            }
         }
         return false;
     }
