@@ -95,16 +95,16 @@ public class MaxProfitAssignment {
         for (int i = 0; i < n; ++i)
             jobs[i] = new Point(difficulty[i], profit[i]);
         Arrays.sort(jobs, Comparator.comparingInt(a -> a.x));
+        // 定义最大收益
         int maxProfit = 0;
+        // 因为已经按工作难度排序，所以后面的一旦出现最大收益，后续的收益都是最大收益
         for (int i=0; i<n; ++i) {
             jobs[i].y = Math.max(maxProfit, jobs[i].y);
             maxProfit = jobs[i].y;
         }
 
-        Arrays.sort(worker);
 
         int ans = 0;
-        int best = 0;
         for (int i=0; i<worker.length; ++i) {
             int l = -1, r = n;
             while (l+1 != r) {
@@ -116,8 +116,7 @@ public class MaxProfitAssignment {
                 }
             }
             if (l != -1) {
-                best = Math.max(best, jobs[l].y);
-                ans += best;
+                ans += jobs[l].y;
             }
         }
         return ans;

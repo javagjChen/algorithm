@@ -77,7 +77,7 @@ public class MinSumSquareDiff {
         for (int i = 0;i < n;i++){
             arr[i] = Math.abs(nums1[i] - nums2[i]);
         }
-        PriorityQueue<Long> priorityQueue = new PriorityQueue<>(n, Comparator.reverseOrder());
+        PriorityQueue<Long> priorityQueue = new PriorityQueue<>( Comparator.reverseOrder());
         for (int val :arr){
             priorityQueue.add((long)val);
         }
