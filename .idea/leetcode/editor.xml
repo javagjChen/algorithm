@@ -333,6 +333,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1201]丑数 III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1201]丑数 III.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1201" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1201]丑数 III.java" />
+              <option name="titleSlug" value="ugly-number-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[121]买卖股票的最佳时机.java">
           <value>
             <LeetcodeEditor>
@@ -1397,6 +1408,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[257]二叉树的所有路径.java" />
               <option name="titleSlug" value="binary-tree-paths" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[264]丑数 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[264]丑数 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn264" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[264]丑数 II.java" />
+              <option name="titleSlug" value="ugly-number-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2816,6 +2838,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[910]最小差值 II.java" />
               <option name="titleSlug" value="smallest-range-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[911]在线选举.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[911]在线选举.md" />
+              <option name="frontendQuestionId" value="leetcode.cn911" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[911]在线选举.java" />
+              <option name="titleSlug" value="online-election" />
             </LeetcodeEditor>
           </value>
         </entry>

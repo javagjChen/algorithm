@@ -78,7 +78,7 @@ public class MaxValue {
         } else {
             right_sum = (1+peak)*peak/2+(n-index-peak);
         }
-        return left_sum+right_sum-peak;
+        return left_sum + right_sum - peak;
     }
 
 

@@ -2,7 +2,7 @@ package dp;
 
 /**
  * @author chengj
- * @Description 跳跃游戏 中等
+ * @Description 55.跳跃游戏 中等
  * @Date 2022/2/17
  */
 //给定一个非负整数数组 nums ，你最初位于数组的 第一个下标 。

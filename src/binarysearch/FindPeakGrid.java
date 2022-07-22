@@ -61,9 +61,9 @@ public class FindPeakGrid {
 
     public int[] findPeakGrid(int[][] mat) {
         int m = mat.length;
-        int n = mat[0].length;
 
-        int maxIndex = 0;
+
+        int maxIndex;
         int l = -1;
         int r = m;
         while (l + 1 != r){
