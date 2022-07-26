@@ -344,6 +344,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1206]设计跳表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1206]设计跳表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1206" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1206]设计跳表.java" />
+              <option name="titleSlug" value="design-skiplist" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[121]买卖股票的最佳时机.java">
           <value>
             <LeetcodeEditor>
@@ -2849,6 +2860,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[911]在线选举.java" />
               <option name="titleSlug" value="online-election" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[919]完全二叉树插入器.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[919]完全二叉树插入器.md" />
+              <option name="frontendQuestionId" value="leetcode.cn919" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[919]完全二叉树插入器.java" />
+              <option name="titleSlug" value="complete-binary-tree-inserter" />
             </LeetcodeEditor>
           </value>
         </entry>
