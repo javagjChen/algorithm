@@ -1,7 +1,7 @@
 package stringandarr;
 
 /**
- * @author chengj 旋转图像 中等
+ * @author chengj 48.旋转图像 中等
  * @Description
  * @Date 2022/2/11
  */

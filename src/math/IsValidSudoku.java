@@ -1,7 +1,7 @@
 package math;
 
 /**
- * @Description 有效的数独 中级
+ * @Description 36.有效的数独 中级
  * @Author chengj
  * @Date 2022/2/7
  */
@@ -69,7 +69,11 @@ package math;
 //
 // Related Topics 数组 哈希表 矩阵 👍 762 👎 0
 public class IsValidSudoku {
+    public static void main(String[] args) {
+        char a = '9';
+        System.out.println(a - '0' -1);
 
+    }
     public boolean isValidSudoku(char[][] board) {
         int [] [] row = new int[9][9];
         int [] [] col = new int[9][9];
