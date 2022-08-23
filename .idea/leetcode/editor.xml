@@ -14,6 +14,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1006]笨阶乘.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1006]笨阶乘.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1006" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1006]笨阶乘.java" />
+              <option name="titleSlug" value="clumsy-factorial" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[101]对称二叉树.java">
           <value>
             <LeetcodeEditor>
@@ -99,6 +110,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[104]二叉树的最大深度.java" />
               <option name="titleSlug" value="maximum-depth-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1052]爱生气的书店老板.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1052]爱生气的书店老板.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1052" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1052]爱生气的书店老板.java" />
+              <option name="titleSlug" value="grumpy-bookstore-owner" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -198,6 +220,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1130]叶值的最小代价生成树.java" />
               <option name="titleSlug" value="minimum-cost-tree-from-leaf-values" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1138]字母板上的路径.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1138]字母板上的路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1138" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1138]字母板上的路径.java" />
+              <option name="titleSlug" value="alphabet-board-path" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -355,6 +388,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1217]玩筹码.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1217]玩筹码.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1217" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1217]玩筹码.java" />
+              <option name="titleSlug" value="minimum-cost-to-move-chips-to-the-same-position" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[121]买卖股票的最佳时机.java">
           <value>
             <LeetcodeEditor>
@@ -462,6 +506,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[131]分割回文串.java" />
               <option name="titleSlug" value="palindrome-partitioning" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1325]删除给定值的叶子节点.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1325]删除给定值的叶子节点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1325" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1325]删除给定值的叶子节点.java" />
+              <option name="titleSlug" value="delete-leaves-with-a-given-value" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -839,6 +894,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1652]拆炸弹.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1652]拆炸弹.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1652" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1652]拆炸弹.java" />
+              <option name="titleSlug" value="defuse-the-bomb" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1656]设计有序流.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1656]设计有序流.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1656" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1656]设计有序流.java" />
+              <option name="titleSlug" value="design-an-ordered-stream" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[167]两数之和 II - 输入有序数组.java">
           <value>
             <LeetcodeEditor>
@@ -1026,6 +1103,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1962]移除石子使总数最小.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1962]移除石子使总数最小.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1962" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1962]移除石子使总数最小.java" />
+              <option name="titleSlug" value="remove-stones-to-minimize-the-total" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[198]打家劫舍.java">
           <value>
             <LeetcodeEditor>
@@ -1144,6 +1232,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[20]有效的括号.java" />
               <option name="titleSlug" value="valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2110]股票平滑下跌阶段的数目.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2110]股票平滑下跌阶段的数目.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2110" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2110]股票平滑下跌阶段的数目.java" />
+              <option name="titleSlug" value="number-of-smooth-descent-periods-of-a-stock" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1463,6 +1562,39 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2375]根据模式串构造最小数字.java" />
               <option name="titleSlug" value="construct-smallest-number-from-di-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2379]得到 K 个黑块的最少涂色次数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2379]得到 K 个黑块的最少涂色次数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2379" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2379]得到 K 个黑块的最少涂色次数.java" />
+              <option name="titleSlug" value="minimum-recolors-to-get-k-consecutive-black-blocks" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2384]最大回文数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2384]最大回文数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2384" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2384]最大回文数字.java" />
+              <option name="titleSlug" value="largest-palindromic-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2385]感染二叉树需要的总时间.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2385]感染二叉树需要的总时间.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2385" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2385]感染二叉树需要的总时间.java" />
+              <option name="titleSlug" value="amount-of-time-for-binary-tree-to-be-infected" />
             </LeetcodeEditor>
           </value>
         </entry>

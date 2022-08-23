@@ -83,6 +83,7 @@ public class EntityParser {
 
         System.out.println(priorityQueue);
     }
+
     public String entityParser(String text) {
         Map<String,String> map = new HashMap<>();
         map.put("&quot;","\"");

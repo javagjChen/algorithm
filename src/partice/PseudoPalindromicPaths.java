@@ -56,6 +56,12 @@ package partice;
 public class PseudoPalindromicPaths {
 
     int ans = 0;
+
+    /**
+     * 算出所有路径之后再判断是否回文不行，报内存超出限制。解决办法：结束路径时判断是否回文
+     * @param root
+     * @return
+     */
     public int pseudoPalindromicPaths (TreeNode root) {
         if(root.left == null && root.right == null){
             return 1;
