@@ -1631,6 +1631,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2391]收集垃圾的最少总时间.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2391]收集垃圾的最少总时间.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2391" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2391]收集垃圾的最少总时间.java" />
+              <option name="titleSlug" value="minimum-amount-of-time-to-collect-garbage" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[239]滑动窗口最大值.java">
           <value>
             <LeetcodeEditor>
@@ -2750,6 +2761,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[6133]分组的最大数量.java" />
               <option name="titleSlug" value="maximum-number-of-groups-entering-a-competition" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[6160]和有限的最长子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[6160]和有限的最长子序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn6160" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[6160]和有限的最长子序列.java" />
+              <option name="titleSlug" value="longest-subsequence-with-limited-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[6161]从字符串中移除星号.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[6161]从字符串中移除星号.md" />
+              <option name="frontendQuestionId" value="leetcode.cn6161" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[6161]从字符串中移除星号.java" />
+              <option name="titleSlug" value="removing-stars-from-a-string" />
             </LeetcodeEditor>
           </value>
         </entry>
