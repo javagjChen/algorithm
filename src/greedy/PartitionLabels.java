@@ -47,6 +47,7 @@ public class PartitionLabels {
         int len = s.length();
         // 存储26个字母
         // s.charAt(i) - 'a' 对应 0到25
+        // 找到每个字符的最大位置
         int[] store = new int[26];
         for (int i = 0;i < len;i++){
             store[s.charAt(i) - 'a'] = i;

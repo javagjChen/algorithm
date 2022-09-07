@@ -608,6 +608,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1375]二进制字符串前缀一致的次数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1375]二进制字符串前缀一致的次数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1375" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1375]二进制字符串前缀一致的次数.java" />
+              <option name="titleSlug" value="number-of-times-binary-string-is-prefix-aligned" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1385]两个数组间的距离值.java">
           <value>
             <LeetcodeEditor>
@@ -847,6 +858,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1552]两球之间的磁力.java" />
               <option name="titleSlug" value="magnetic-force-between-two-balls" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1560]圆形赛道上经过次数最多的扇区.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1560]圆形赛道上经过次数最多的扇区.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1560" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1560]圆形赛道上经过次数最多的扇区.java" />
+              <option name="titleSlug" value="most-visited-sector-in-a-circular-track" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1664,6 +1686,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2397]被列覆盖的最多行数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2397]被列覆盖的最多行数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2397" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2397]被列覆盖的最多行数.java" />
+              <option name="titleSlug" value="maximum-rows-covered-by-columns" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[239]滑动窗口最大值.java">
           <value>
             <LeetcodeEditor>
@@ -1683,6 +1716,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[23]合并K个升序链表.java" />
               <option name="titleSlug" value="merge-k-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2400]恰好移动 k 步到达某一位置的方法数目.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2400]恰好移动 k 步到达某一位置的方法数目.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2400" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2400]恰好移动 k 步到达某一位置的方法数目.java" />
+              <option name="titleSlug" value="number-of-ways-to-reach-a-position-after-exactly-k-steps" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2401]最长优雅子数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2401]最长优雅子数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2401" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2401]最长优雅子数组.java" />
+              <option name="titleSlug" value="longest-nice-subarray" />
             </LeetcodeEditor>
           </value>
         </entry>
