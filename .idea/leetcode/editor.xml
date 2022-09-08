@@ -718,6 +718,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1465]切割后面积最大的蛋糕.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1465]切割后面积最大的蛋糕.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1465" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1465]切割后面积最大的蛋糕.java" />
+              <option name="titleSlug" value="maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1482]制作 m 束花所需的最少天数.java">
           <value>
             <LeetcodeEditor>
@@ -1180,6 +1191,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1946]子字符串突变后可能得到的最大整数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1946]子字符串突变后可能得到的最大整数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1946" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1946]子字符串突变后可能得到的最大整数.java" />
+              <option name="titleSlug" value="largest-number-after-mutating-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1962]移除石子使总数最小.java">
           <value>
             <LeetcodeEditor>
@@ -1287,6 +1309,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[206]反转链表.java" />
               <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2099]找到和最大的长度为 K 的子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2099]找到和最大的长度为 K 的子序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2099" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2099]找到和最大的长度为 K 的子序列.java" />
+              <option name="titleSlug" value="find-subsequence-of-length-k-with-the-largest-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1485,6 +1518,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[226]翻转二叉树.java" />
               <option name="titleSlug" value="invert-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2295]替换数组中的元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2295]替换数组中的元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2295" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2295]替换数组中的元素.java" />
+              <option name="titleSlug" value="replace-elements-in-an-array" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3399,6 +3443,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[93]复原 IP 地址.java" />
               <option name="titleSlug" value="restore-ip-addresses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[942]增减字符串匹配.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[942]增减字符串匹配.md" />
+              <option name="frontendQuestionId" value="leetcode.cn942" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[942]增减字符串匹配.java" />
+              <option name="titleSlug" value="di-string-match" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[945]使数组唯一的最小增量.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[945]使数组唯一的最小增量.md" />
+              <option name="frontendQuestionId" value="leetcode.cn945" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[945]使数组唯一的最小增量.java" />
+              <option name="titleSlug" value="minimum-increment-to-make-array-unique" />
             </LeetcodeEditor>
           </value>
         </entry>

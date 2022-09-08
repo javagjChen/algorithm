@@ -55,7 +55,7 @@ import java.util.Stack;
 public class SmallestNumber {
     public static void main(String[] args) {
         SmallestNumber smallestNumber = new SmallestNumber();
-        System.out.println(smallestNumber.smallestNumber("IIIDID"));
+        System.out.println(smallestNumber.smallestNumber("DDD"));
 
     }
     public String smallestNumber(String pattern) {
@@ -80,6 +80,5 @@ public class SmallestNumber {
         }
         return sb.toString();
     }
-
 
 }
