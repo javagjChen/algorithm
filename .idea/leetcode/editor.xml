@@ -179,6 +179,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1090]受标签影响的最大值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1090]受标签影响的最大值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1090" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1090]受标签影响的最大值.java" />
+              <option name="titleSlug" value="largest-values-from-labels" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[110]平衡二叉树.java">
           <value>
             <LeetcodeEditor>
@@ -443,6 +454,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1253]重构 2 行二进制矩阵.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1253]重构 2 行二进制矩阵.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1253" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1253]重构 2 行二进制矩阵.java" />
+              <option name="titleSlug" value="reconstruct-a-2-row-binary-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1254]统计封闭岛屿的数目.java">
           <value>
             <LeetcodeEditor>
@@ -630,6 +652,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1387]将整数按权重排序.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1387]将整数按权重排序.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1387" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1387]将整数按权重排序.java" />
+              <option name="titleSlug" value="sort-integers-by-the-power-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[139]单词拆分.java">
           <value>
             <LeetcodeEditor>
@@ -759,6 +792,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1493]删掉一个元素以后全为 1 的最长子数组.java" />
               <option name="titleSlug" value="longest-subarray-of-1s-after-deleting-one-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1496]判断路径是否相交.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1496]判断路径是否相交.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1496" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1496]判断路径是否相交.java" />
+              <option name="titleSlug" value="path-crossing" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -960,6 +1004,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1647]字符频次唯一的最小删除次数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1647]字符频次唯一的最小删除次数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1647" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1647]字符频次唯一的最小删除次数.java" />
+              <option name="titleSlug" value="minimum-deletions-to-make-character-frequencies-unique" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1648]销售价值减少的颜色球.java">
           <value>
             <LeetcodeEditor>
@@ -1045,6 +1100,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[171]Excel 表列序号.java" />
               <option name="titleSlug" value="excel-sheet-column-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1750]删除字符串两端相同字符后的最短长度.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1750]删除字符串两端相同字符后的最短长度.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1750" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1750]删除字符串两端相同字符后的最短长度.java" />
+              <option name="titleSlug" value="minimum-length-of-string-after-deleting-similar-ends" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1342,6 +1408,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[20]有效的括号.java" />
               <option name="titleSlug" value="valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2105]给植物浇水 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[2105]给植物浇水 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2105" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[2105]给植物浇水 II.java" />
+              <option name="titleSlug" value="watering-plants-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3303,6 +3380,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[831]隐藏个人信息.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[831]隐藏个人信息.md" />
+              <option name="frontendQuestionId" value="leetcode.cn831" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[831]隐藏个人信息.java" />
+              <option name="titleSlug" value="masking-personal-information" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[84]柱状图中最大的矩形.java">
           <value>
             <LeetcodeEditor>
@@ -3369,6 +3457,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[883]三维形体投影面积.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[883]三维形体投影面积.md" />
+              <option name="frontendQuestionId" value="leetcode.cn883" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[883]三维形体投影面积.java" />
+              <option name="titleSlug" value="projection-area-of-3d-shapes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[892]三维形体的表面积.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[892]三维形体的表面积.md" />
+              <option name="frontendQuestionId" value="leetcode.cn892" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[892]三维形体的表面积.java" />
+              <option name="titleSlug" value="surface-area-of-3d-shapes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[89]格雷编码.java">
           <value>
             <LeetcodeEditor>
@@ -3410,6 +3520,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[911]在线选举.java" />
               <option name="titleSlug" value="online-election" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[915]分割数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[915]分割数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn915" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[915]分割数组.java" />
+              <option name="titleSlug" value="partition-array-into-disjoint-intervals" />
             </LeetcodeEditor>
           </value>
         </entry>
