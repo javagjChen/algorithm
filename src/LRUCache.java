@@ -43,6 +43,7 @@ public class LRUCache {
             linkedList.addFirst(key);
         }else {
             linkedList.addFirst(key);
+            linkedList.peek();
             map.put(key,value);
         }
 
