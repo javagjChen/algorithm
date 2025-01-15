@@ -63,7 +63,7 @@ public class Rob3 {
     }
 
     int[] robAction(TreeNode root) {
-        int res[] = new int[2];
+        int[] res = new int[2];
         if (root == null)
             return res;
 

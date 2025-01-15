@@ -49,28 +49,29 @@ import java.lang.management.ManagementFactory;
 public class Rob2 {
     public static void main(String[] args) {
         Rob2 rob2 = new Rob2();
-        System.out.println(rob2.rob(new int[]{1,2,3}));
+        System.out.println(rob2.rob(new int[]{1,2,3,1}));
     }
     public int rob(int[] nums) {
         if (nums.length == 1){
             return nums[0];
         }
-        int t = doRob(nums,0,nums.length-1);
+        //打劫了第一间，就不能打劫最后一间
+        int t = doRob(nums,0,nums.length-2);
+        //打劫了最后一间，就不能打劫第一间
         int k = doRob(nums,1,nums.length-1);
         return Math.max(t,k);
     }
 
-    private int doRob(int[] nums, int start, int len) {
-        if (start == len){
-            return nums[start];
+    private int doRob(int[] nums, int start, int end) {
+
+        int a = nums[start];
+        int b = Math.max(nums[start],nums[start + 1]);
+        for (int i = start + 2; i <= end;i++){
+            int t = b;
+            b = Math.max(a + nums[i],b);
+            a = t;
         }
-        int[] dp = new int[nums.length];
-        dp[start] = nums[start];
-        dp[start + 1] = Math.max(nums[start],nums[start + 1]);
-        for (int i = start + 2; i <= len + start -1;i++){
-            dp[i] = Math.max(dp[i - 2] + nums[i],dp[i - 1]);
-        }
-        return dp[len + start -1];
+        return b;
     }
 
 }
